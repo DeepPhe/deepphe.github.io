@@ -1,11 +1,11 @@
 ---
-title: "Bill McDonald"
+title: "John Levander"
 date: 2018-11-19T10:47:58+10:00
 draft: false
-image: "images/team/nonsap-visuals-kMJp7620W6U-unsplash.jpg"
-jobtitle: "Graphic Designer"
+image: "images/team/john.png"
+jobtitle: "Developer"
 linkedinurl: ""
-weight: 7
+weight: 5
 layout: team
 ---
 

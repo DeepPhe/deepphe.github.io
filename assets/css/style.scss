@@ -3,12 +3,13 @@
 ---
 
 // Colors
-$primary: #E5261F;
-$secondary: #f88379;
-$black: #2f2f41;
-$white: #ffffff;
-$white-offset: #fff6f8;
-$steel: #5C5A5A;
+$primary: #264653;
+$secondary: #2a9d8f;
+$black: darken(white, 15%);
+$white: #264653;
+$white-offset: #2a9d8f;
+$steel: #ffffff;
+
 
 // Links
 $link-color: $primary;
@@ -22,9 +23,9 @@ $font-family-heading: 'Playfair Display', serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
-$footer-text-color: $white;
+$footer-text-color: $black;
 $sub-footer-background-color: darken($primary, 10%);
-$sub-footer-text-color: $white;
+$sub-footer-text-color: $black;
 
 // Bootstrap
 @import 'bootstrap-variables';

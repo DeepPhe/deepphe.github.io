@@ -1,12 +1,12 @@
 ---
-title: Jekyll Serif Theme
+title: DeepPhe
 layout: home
 description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: true
+intro_image: "images/illustrations/network2.svg"
+intro_image_absolute: false
 intro_image_hide_on_mobile: true
+
 ---
+# DeepPhe
 
-# Serif - A Jekyll Business Theme.
-
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+A Natural Language Processing System for Extracting Cancer Phenotypes from Clinical Records
