@@ -1,12 +1,12 @@
 ---
-title: "Accounting"
+title: "About DeepPhe"
 date: 2018-11-18T12:33:46+10:00
 featured: true
 weight: 1
 layout: service
 ---
 
-Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.
+Precise phenotype information is needed to understand the effects of genetic and epigenetic changes on tumor behavior and responsiveness. Extraction and representation of cancer phenotypes is currently mostly performed manually, making it difficult to correlate phenotypic data to genomic data. In addition, genomic data are being produced at an increasingly faster pace, exacerbating the problem. The DeepPhe software enables automated extraction of detailed phenotype information from electronic medical records of cancer patients. The system implements advanced Natural Language Processing and knowledge engineering methods within a flexible modular architecture, and was evaluated using a manually annotated dataset of the University of Pittsburgh Medical Center breast cancer patients. The resulting platform provides critical and missing computational methods for computational phenotyping. Working in tandem with advanced analysis of high-throughput sequencing, these approaches will further accelerate the transition to precision cancer treatment. Cancer Res; 77(21); e115–8. ©2017 AACR.
 
 ![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
