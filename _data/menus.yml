@@ -2,7 +2,7 @@ main:
   - name: "Software"
     url: "/software/"
     weight: 2
-  - name: " Research Team"
+  - name: " Research Team & Funding"
     url: "/team/"
     weight: 3
 
