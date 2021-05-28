@@ -1,0 +1,62 @@
+---
+layout: default
+bodyClass: page-projects-list
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {{ content }}
+            </div>
+            {% if page.intro_image %}
+            <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+                <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="container pt-6 pb-6">
+    <div class="row">
+        {% assign promoted_projects = site.projects | where: "promoted", true | sort: "weight" %}
+        {% for projects in promoted_projects %}
+        <div class="col-12 col-md-6 mb-2">
+            <div class="projects projects-summary projects-summary-large">
+                {% if projects.image %}
+                <div class="projects-image">
+                    <img alt="{{ projects.title }}" class="img-fluid mb-2" src="{{ projects.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="projects-meta">
+                    <h2 class="projects-name"><a href="{{ projects.url | relative_url }}">{{ projects.title }}</a></h2>
+                    <p class="projects-description">{{ projects.jobtitle }}</p>
+                    {% if projects.linkedinurl %}
+                    <a target="_blank" href="{{ projects.linkedinurl }}">LinkedIn</a>
+                    {% endif %}
+                </div>
+                <div class="projects-content">{{ projects.content | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row pt-6 pb-6">
+        {% assign projects = site.projects | where: "promoted", empty | sort: "weight" %}
+        {% for projects in projects %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="projects projects-summary">
+                {% if projects.image %}
+                <div class="projects-image">
+                    <img alt="{{ projects.title }}" class="img-fluid mb-2" src="{{ projects.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="projects-meta">
+                    <h2 class="projects-name"><a href="{{ projects.url | relative_url }}">{{ projects.title }}</a></h2>
+                    <p class="projects-description">{{ projects.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,5 +1,7 @@
-* add NCI Funding
-* Simplify research team (team.md)  (and under _team.m/...).
+* projects
+** fix color add NCI Funding
+** something for each project
+* remove team
 * work on fonts - can we remoeve the seris? 
 * better email for help  (in _data/contact.yml)
 * remove "View demo"
@@ -9,3 +11,4 @@
 
 * Work on footer
 ** Copyright
+* add projects parallel to team
