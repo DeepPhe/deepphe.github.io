@@ -1,6 +1,6 @@
 * add NCI Funding
 * Simplify research team (team.md)  (and under _team.m/...).
-
+* work on fonts - can we remoeve the seris? 
 * better email for help  (in _data/contact.yml)
 * remove "View demo"
 * Home page - fix bottom boxes
