@@ -5,7 +5,9 @@ main:
   - name: " Research Team & Funding"
     url: "/team/"
     weight: 3
-
+  - name: " Projects"
+    url: "/projects/"
+    weight: 4
   - name: "GitHub Repository"
     url: "https://github.com/DeepPhe/"
     weight: 5
