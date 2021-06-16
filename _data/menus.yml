@@ -2,15 +2,12 @@ main:
   - name: "Software"
     url: "/software/"
     weight: 2
-  - name: " Research Team & Funding"
-    url: "/team/"
-    weight: 3
   - name: " Projects"
     url: "/projects/"
-    weight: 4
+    weight: 3
   - name: "GitHub Repository"
     url: "https://github.com/DeepPhe/"
-    weight: 5
+    weight: 4
 
 footer:
   - name: "Home"

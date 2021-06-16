@@ -5,7 +5,7 @@ title: 'DeepPhe'
 google_analytics_id: ""
 
 homepage:
-  show_call_box: true
+  show_call_box: false
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -13,9 +13,8 @@ logo:
   desktop_height: "36px"
 
 footer:
-  copyright_text: 'Copyright 2021, Harvard Medical School, Boston,
-  Massachusetts, University of Pittsburgh, Pittsburgh Pennsylvania,
-  and Vanderbilt University, Nashville Tennessee'
+  copyright_text: 'Copyright 2021, Harvard Medical School, University of Pittsburgh, and Vanderbilt University'
+  
 
 seo:
   meta_og_title: "DeepPhe"
@@ -52,3 +51,4 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - todo.md
