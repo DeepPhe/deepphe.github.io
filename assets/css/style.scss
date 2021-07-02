@@ -9,17 +9,21 @@ $black: darken(white, 15%);
 $white: #264653;
 $white-offset: #2a9d8f;
 $steel: #ffffff;
+$foo: #Ff0000;
 
 
 // Links
+// $link-color was $primary;
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 10%);
+// was lighten($primary)
+$link-hover-color: lighten($link-color, 10%);
 $link-hover-decoration: underline;
 
 // Fonts
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Playfair Display', serif, -apple-system;
+$font-family-heading: Helvetica, Arial, sans-serif, -apple-system;
+
 
 // Footer
 $footer-background-color: $primary;
