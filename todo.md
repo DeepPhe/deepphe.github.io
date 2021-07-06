@@ -1,9 +1,7 @@
-* clean up intro text on home pag
-* something for each project - on home page - move to boxse
-* clean up software page
+* fix color of links on home page
+* fix what projects link to.
 * something more details on software page
 * fix favicon
-* nci on home page.
 
 DONE
 * Work on footer
@@ -19,3 +17,7 @@ DONE
    -- look at href, ul, and link coloring
 * work on fonts - can we remoeve the serifs? 
 * work on fonts - consistency
+* nci on home page.
+* DeepPhe and DeepPhe-CR link to the project page?
+* fix the spacing in the deepphe-cr box
+* remove the projects link

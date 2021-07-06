@@ -1,9 +1,6 @@
 main:
   - name: "Software"
     url: "/software/"
-    weight: 2
-  - name: " Projects"
-    url: "/projects/"
     weight: 3
   - name: "GitHub Repository"
     url: "https://github.com/DeepPhe/"

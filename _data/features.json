@@ -1,13 +1,12 @@
 [
   {
-    "title": "DeepPhe Feature 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "image": "images/features/noun_branding_1885335.svg"
+      "title": "DeepPhe",
+      "link": "https://deepphe.github.io",
+    "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records, funded by grant #U24CA248010 from the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://itcr.cancer.gov\">Information Technology for Cancer Research<A> initiative."
   },
   {
-    "title": "DeepPhe Feature 2",
-    "description": "Sapien pellentesque habitant morbi tristique senectus et netus et. Habitant morbi tristique senectus et netus et malesuada fames.",
-    "image": "images/features/noun_The Process_1885341.svg"
+      "title": "DeepPhe-CR",
+      "link": "https://deepphe.github.io",      
+    "description": "Natural Language Processing Platform for Cancer Surveillance, a collaboration with the <A HREF=\"https://seer.cancer.gov\">SEER</A> registries (grant #UG3CA243120)."
   },
-
 ]
