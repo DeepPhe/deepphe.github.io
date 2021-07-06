@@ -1,5 +1,5 @@
-* fix color of links on home page
-* fix what projects link to.
+* fix what projects link to. (software page) - how to do relative links in jekyll
+* put an image of DeeppheViz on home page
 * something more details on software page
 * fix favicon
 
@@ -21,3 +21,9 @@ DONE
 * DeepPhe and DeepPhe-CR link to the project page?
 * fix the spacing in the deepphe-cr box
 * remove the projects link
+* fix color of links on home page
+    - link in feature or feature-title
+    - _features.scss
+    - find variables -
+    - find colors
+    - other versions of a

@@ -10,7 +10,7 @@ $white: #264653;
 $white-offset: #2a9d8f;
 $steel: #ffffff;
 $foo: #Ff0000;
-
+$lightlink: #44829b;
 
 // Links
 // $link-color was $primary;
@@ -19,6 +19,8 @@ $link-decoration: none;
 // was lighten($primary)
 $link-hover-color: lighten($link-color, 10%);
 $link-hover-decoration: underline;
+
+$lightlink-hover-color: lighten($lightlink,10%);
 
 // Fonts
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
