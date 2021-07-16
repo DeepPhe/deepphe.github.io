@@ -23,3 +23,5 @@ Thumbs.db
 .bundle/*
 vendor/*
 *~
+.#*
+#todo.md#

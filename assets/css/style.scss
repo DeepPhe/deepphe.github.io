@@ -14,7 +14,8 @@ $lightlink: #44829b;
 
 // Links
 // $link-color was $primary;
-$link-color: $primary;
+//$link-color: $primary;
+$link-color: $foo;
 $link-decoration: none;
 // was lighten($primary)
 $link-hover-color: lighten($link-color, 10%);

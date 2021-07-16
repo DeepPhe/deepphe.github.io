@@ -1,7 +1,15 @@
+* please cite "...cancer research" paper.
+** color  (seems to be the 264653 link) -- if I change in assets/css/style.scss nothing happens. if I go to _site/assets/css/style.csss that seems to do something. - what about if I pint inot _home...
+
+
+** link content
 * fix what projects link to. (software page) - how to do relative links in jekyll
+* rewrite project texts
 * put an image of DeeppheViz on home page
 * something more details on software page
 * fix favicon
+* add pubs.
+* add places
 
 DONE
 * Work on footer
@@ -27,3 +35,4 @@ DONE
     - find variables -
     - find colors
     - other versions of a
+* VUMC in footer

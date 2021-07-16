@@ -1,5 +1,6 @@
 .content {
-  a {
+    a {
+	link-color: $foo;
     text-decoration: underline;
   }
   img {

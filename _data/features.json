@@ -2,11 +2,11 @@
   {
       "title": "DeepPhe",
       "link": "https://deepphe.github.io",
-    "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records, funded by grant #U24CA248010 from the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://itcr.cancer.gov\">Information Technology for Cancer Research<A> initiative."
+    "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records.<hr/> Supported by the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://itcr.cancer.gov\">Information Technology for Cancer Research</A> initiative. (Grant #U24CA248010)."
   },
   {
       "title": "DeepPhe-CR",
       "link": "https://deepphe.github.io",      
-    "description": "Natural Language Processing Platform for Cancer Surveillance, a collaboration with the <A HREF=\"https://seer.cancer.gov\">SEER</A> registries (grant #UG3CA243120)."
+    "description": "Natural Language Processing Platform for Cancer Surveillance.<br/><br/><hr/>A collaboration with the <A HREF=\"https://seer.cancer.gov\">SEER</A> registries (Grant #UG3CA243120)."
   },
 ]
