@@ -1,7 +1,8 @@
 .content {
     a {
-	link-color: $foo;
-    text-decoration: underline;
+      color: $lightlink;
+      hover-decoration: underline;
+      hover-color: $lightlink-hover-color;
   }
   img {
     max-width: 100%;
