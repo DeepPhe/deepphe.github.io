@@ -1,10 +1,6 @@
-* software page is populated by software.md, which pulls op the services.html template
-** reivwe title, url, etc...
-* fix what projects link to (from home page) (software page) - how to do relative links in jekyll
-
-* put an image of DeeppheViz on software page
-* add pubs.
 * add places
+* add pubs.
+
 
 DONE
 * Work on footer
@@ -42,3 +38,18 @@ Documents/research/
 ** where are individual service defined?  - look in _services/about  - and in services directory, by weight....
 ** trim to two DONE
 ** how can I make them go across a whole screen DONE
+** review title, url, etc...
+** fix display of links
+** fix padding of intro
+** fix what links link to. (not relative)
+** software
+* fix link color
+** deepphe.md
+*** information model
+*** deepphe-viz
+<* software page is populated by software.md, which pulls op the services.html template
+** deepphe-cr.md.
+****grant # 
+* fix what projects link to (from home page) (software page) - how to do relative links in jekyll  (is it relative_url}?
+* put an image of DeeppheViz on software page
+<* push

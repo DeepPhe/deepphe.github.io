@@ -24,11 +24,11 @@ bodyClass: page-services-list
     {% for service in weighted_services %}
     <div class="col-12 col-md-12 mb-3">
       <div class="service service-summary">
-        <div class="service-content">
+        <div class="service-content content">
           <h2 class="service-title">
             <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 400 }}</p>
+          <p>{{ service.content | markdownify }}</p>
         </div>
       </div>
     </div>
