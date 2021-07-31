@@ -1,7 +1,8 @@
+* software page is populated by software.md, which pulls op the services.html template
+** reivwe title, url, etc...
+* fix what projects link to (from home page) (software page) - how to do relative links in jekyll
+
 * put an image of DeeppheViz on software page
-* fix what projects link to. (software page) - how to do relative links in jekyll
-* rewrite project texts
-* something more details on software page
 * add pubs.
 * add places
 
@@ -37,3 +38,7 @@ Documents/research/
 * fix cite texgt  to be smaller font
 *spacing between lines on first page
 * fix favicon
+* software page is populated by software.md, which pulls op the services.html template
+** where are individual service defined?  - look in _services/about  - and in services directory, by weight....
+** trim to two DONE
+** how can I make them go across a whole screen DONE
