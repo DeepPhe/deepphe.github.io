@@ -6,7 +6,8 @@ weight: 4
 layout: service
 ---
 
-DeepPhe-CR builds upon the base DeepPhe platform to provide REST-APIs 
+The DeepPhe tool for Cancer Registries (DeepPhe-CR) 
+builds upon the base DeepPhe platform to provide REST-APIs 
 for submissions of documents to the DeepPhe pipeline and return of extracted results,
 with the goal of providing DeepPhe services to tools for cancer patient data abstraction. 
 Developed in support of cancer registries from the NCI

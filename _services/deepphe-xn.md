@@ -6,7 +6,8 @@ weight: 2
 layout: service
 ---
 
-DeepPhe-XN builds upon the base DeepPhe platform to provide extensive information
+The DeepPhe tool for Translational Research (DeepPhe-XN) 
+builds upon the base DeepPhe platform to provide extensive information
 useful for translational cancer research. Results from processing  
 are stored in a Neo4J database that can be utilized by DeepPhe-Viz.
 
