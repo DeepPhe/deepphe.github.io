@@ -1,7 +1,6 @@
 baseurl: '/'
 permalink: pretty
 title: 'DeepPhe'
-url: "https://deepphe.github.io/"
 
 google_analytics_id: ""
 
