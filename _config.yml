@@ -1,5 +1,4 @@
-#baseurl: "/"
-baseurl: "https://deepphe.github.io"
+baseurl: "/"
 permalink: pretty
 title: 'DeepPhe'
 
