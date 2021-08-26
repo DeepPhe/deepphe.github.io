@@ -8,7 +8,7 @@ homepage:
   show_call_box: false
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "images/logo/deepphe.png"
   desktop: "images/logo/deepphe.png"
   desktop_height: "36px"
   logo_url: "/"
