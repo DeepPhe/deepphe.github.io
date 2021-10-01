@@ -1,7 +1,7 @@
 ---
-title: papers
+title: Papers
 permalink: /papers/
-layout: page
+layout: papers
 description: related papers
 ---
 
