@@ -11,7 +11,7 @@
    },
   {
       "title": "DeepPhe Cancer Registry (DeepPhe-CR)",
-      "link": "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/v0.1.0-cr",
+      "link": "https://github.com/DeepPhe/DeepPhe-CR-Release/releases/tag/v0.1.0-cr",
     "description": "Natural Language Processing Platform for Cancer Surveillance.<br/><br/><hr/>A collaboration with the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://seer.cancer.gov\">Surveillance, Epidemiology, and End Results (SEER) program</A> (Grant #UH3CA243120)."
   }
 ]
