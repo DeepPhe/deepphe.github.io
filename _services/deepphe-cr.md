@@ -1,6 +1,6 @@
 ---
 title: "DeepPhe-CR"
-link: "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/v0.1.0-cr"
+link: "https://github.com/DeepPhe/DeepPhe-CR-Release/releases/tag/v0.1.0-cr"
 featured: true
 weight: 4
 layout: service
