@@ -2,6 +2,9 @@ main:
   - name: "Software"
     url: "/software/"
     weight: 3
+  - name: "Videos"
+    url: "/videos/"
+    weight: 4
   - name: "Papers"
     url: "/papers/"
     weight: 4
