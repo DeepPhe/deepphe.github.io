@@ -1,8 +1,8 @@
 ---
 title: papers
-permalink: /Papers/
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
+permalink: /papers/
+layout: page
+description: related papers
 ---
 
 # Related Publications, Presentations, Panels
