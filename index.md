@@ -18,4 +18,12 @@ understand complex cancer cases and cohorts.
 
 <span style="font-size: small">Please read and cite our introductory paper:</span>
 
-<span style="font-size: small;line-height:0.2px">Savova, et al. [DeepPhe - A Natural Language Processing System for Extracting Cancer Phenotypes from Clinical Records](https://dx.doi.org/10.1158%2F0008-5472.CAN-17-0615) Cancer Res. 2017 Nov. 1. 77(21)e115-e118. DOI:10.1158/0008-5472.CAN-17-0615.</span>
+<span style="font-size: small;line-height:0.2px;color:white">
+Savova, et al. 
+</span>
+<span style="font-size: small;line-height:0.2px;color:blue">
+[DeepPhe - A Natural Language Processing System for Extracting Cancer Phenotypes from Clinical Records](https://dx.doi.org/10.1158%2F0008-5472.CAN-17-0615)
+</span>
+<span style="font-size: small;line-height:0.2px;color:white">
+Cancer Res. 2017 Nov. 1. 77(21)e115-e118. DOI:10.1158/0008-5472.CAN-17-0615.
+</span>

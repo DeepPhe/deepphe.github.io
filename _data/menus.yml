@@ -5,11 +5,11 @@ main:
   - name: "Videos"
     url: "/videos/"
     weight: 4
-  - name: "Papers"
-    url: "/papers/"
-    weight: 5
   - name: "Downloads"
     url: "/downloads/"
+    weight: 5
+  - name: "Papers"
+    url: "/papers/"
     weight: 6
 
 footer:

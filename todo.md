@@ -1,5 +1,7 @@
 * add places
 * add pubs.
+* fix page/section titles.  Change color (black to gray/other).
+* fix page/section titles.  Make consistent size and placement.
 
 
 DONE
@@ -8,25 +10,32 @@ DONE
 * add projects parallel to team
 * trim locations from footer
 * remove team
+* remove the projects
 * remove "View demo"
-
-* fiure out how many block of text is included in index page and how we can get orderd input text inlcuded as white and (erhaps smaller)?
-* home page -fonts and links
--- why are they in different colors?
-   -- look at href, ul, and link coloring
-* work on fonts - can we remoeve the serifs? 
-* work on fonts - consistency
-* nci on home page.
 * DeepPhe and DeepPhe-CR link to the project page?
-* fix the spacing in the deepphe-cr box
-* remove the projects link
-* fix color of links on home page
+* nci on home page.   --- Is this necesssary?  It is on the Software page and the wikis.  - spf
+* VUMC in footer
+
+
+TODO
+* figure out how many block of text is included in index page and how we can get ordered input text 
+  included as white and (perhaps smaller)?  --- What does this mean? -spf
+* home page -fonts and links
+-- why are they in different colors?  --- Is this about assets/css/style.css and its referenced _sass/etc/.scss styles? -spf
+   -- look at href, ul, and link coloring
+* work on fonts - can we remove the serifs?   --- done? -spf
+* work on fonts - consistency  --- We should come up with a scheme
+
+
+* fix the spacing in the deepphe-cr box --- What does this mean? -spf
+* 
+* fix color of links on home page  --- Is this done?  If not then what is the color scheme? - spf
     - link in feature or feature-title
     - _features.scss
     - find variables -
     - find colors
     - other versions of a
-* VUMC in footer
+
 Documents/research/
 ** color  (seems to be the 264653 link) -- if I change in assets/css/style.scss nothing happens. if I go to _site/assets/css/style.csss that seems to do something. - what about if I pint inot _home...
 
