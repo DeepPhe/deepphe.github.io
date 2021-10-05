@@ -1,15 +1,13 @@
 ---
-title: software
+title: Downloads
+permalink: /downloads/
 layout: services
-intro_image: "images/deepphe-patient.png"
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
+description: software release downloads
 ---
 
-# DeepPhe Downloads
+# Software Release Downloads
 
 {% if site.data.downloads %}
-Tool Downloads:
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">

@@ -7,10 +7,10 @@ main:
     weight: 4
   - name: "Papers"
     url: "/papers/"
-    weight: 3
+    weight: 5
   - name: "Downloads"
     url: "/downloads/"
-    weight: 3
+    weight: 6
 
 footer:
   - name: "Home"
