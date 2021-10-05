@@ -1,7 +1,7 @@
 ---
 title: Downloads
 permalink: /downloads/
-layout: services
+layout: default
 description: software release downloads
 ---
 
