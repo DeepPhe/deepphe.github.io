@@ -2,16 +2,16 @@
    {
       "title": "DeepPhe Translational (DeepPhe-XN)",
       "link": "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/xn0.4.1",
-      "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records.<hr/> Supported by the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://itcr.cancer.gov\">Information Technology for Cancer Research (ITCR) initiative</A> (Grant #U24CA248010)."
+      "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records."
    },
    {
       "title": "DeepPhe Visual Analytics Tool (DeepPhe-Viz)",
       "link": "https://github.com/DeepPhe/DeepPhe-Viz/releases/tag/v20210826",
-      "description": "Cancer Deep Phenotype Visual Analytics Tool.<hr/> Supported by the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://itcr.cancer.gov\">Information Technology for Cancer Research (ITCR) initiative</A> (Grant #U24CA248010)."
+      "description": "Cancer Deep Phenotype Visual Analytics Tool."
    },
    {
       "title": "DeepPhe Cancer Registry (DeepPhe-CR)",
       "link": "https://github.com/DeepPhe/DeepPhe-CR-Release/releases/tag/v0.1.0-cr",
-      "description": "Natural Language Processing Platform for Cancer Surveillance.<br/><br/><hr/>A collaboration with the <A HREF=\"https://www.cancer.gov\">National Cancer Institute's</A> <A HREF=\"https://seer.cancer.gov\">Surveillance, Epidemiology, and End Results (SEER) program</A> (Grant #UH3CA243120)."
+      "description": "Natural Language Processing Platform for Cancer Surveillance."
    }
 ]
