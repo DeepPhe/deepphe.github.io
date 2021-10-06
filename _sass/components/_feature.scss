@@ -28,6 +28,11 @@
       hover-color: $link-hover-color;
   }
   .feature-title {
+    a {
+        color: $link-color;
+        hover-decoration: underline;
+        hover-color: $link-hover-color;
+    }
   }
   .feature-content {
     margin-bottom: 0;
