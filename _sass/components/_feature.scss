@@ -21,9 +21,11 @@
     height: auto;
   }
   a {
-      color: $lightlink;
+//       color: $lightlink;
+      color: $link-color;
       hover-decoration: underline;
-      hover-color: $lightlink-hover-color;
+//       hover-color: $lightlink-hover-color;
+      hover-color: $link-hover-color;
   }
   .feature-title {
   }
