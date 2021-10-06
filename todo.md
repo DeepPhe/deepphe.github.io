@@ -13,7 +13,7 @@ DONE
 * remove the projects
 * remove "View demo"
 * DeepPhe and DeepPhe-CR link to the project page?
-* nci on home page.   --- Is this necesssary?  It is on the Software page and the wikis.  - spf
+* nci on home page.  
 * VUMC in footer
 ** trim to two 
 ** how can I make them go across a whole screen
