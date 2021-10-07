@@ -19,6 +19,7 @@ DONE
 ** how can I make them go across a whole screen
 ** review title, url, etc...
 ** grant #
+* fix link color
 
 
   TODO
@@ -33,8 +34,7 @@ DONE
 
 * fix the spacing in the deepphe-cr box --- What does this mean? -spf
 * 
-* fix color of links on home page  --- Is this done?  If not then what is the color scheme?   
-I added several link colors from which we can choose - spf
+* fix color of links on home page  --- Is this done?  If not then what is the color scheme?
     - link in feature or feature-title
     - _features.scss
     - find variables -
@@ -55,7 +55,6 @@ Documents/research/
 ** fix padding of intro
 ** fix what links link to. (not relative)   --- What does this mean? - spf
 ** software
-* fix link color --- I guess that this link color item is by page?  - spf
 
 ** deepphe.md --- ? - spf
 *** information model
