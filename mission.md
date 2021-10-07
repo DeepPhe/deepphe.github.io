@@ -1,7 +1,7 @@
 ---
 title: Mission
 permalink: /mission/
-layout: default
+layout: papers
 description: project missions
 ---
 
@@ -19,6 +19,25 @@ miss items of potential interest to subsequent studies.
 Although ad hoc solutions such as the oncologic history have spontaneously developed as information
 collection devices, they are not necessarily universal, accurate, or complete.   
    
+The Cancer Deep Phenotype Extraction (DeepPhe) project is developing informatics solutions to overcome
+these inefficiencies. Unlike prior work applying Natural Language Processing (NLP) techniques to individual
+cancer documents, DeepPhe combines details from multiple documents to form longitudinal summaries.
+Classic and state-of-the-art NLP techniques for extracting individual concepts are used alongside a
+rich information model and techniques for care episode classification, and Ontology-Based Summarization
+for cross-document co-resolution, and to summarize diagnoses, treatments, responses and temporal
+relationships as needed to support retrospective research. We expect that DeepPhe will be used either
+by clinicians or researchers with appropriate permissions to read notes de-identified by honest brokers
+or through other appropriate means.
+
+   
 # DeepPhe for Cancer Registries (DeepPhe-CR)
 
 Lorem Ipsum   
+   
+   
+The Cancer Deep Phenotype Extraction for the Cancer Registry (DeepPhe-CR) project strives to use 
+Natural Language Processing (NLP) and Ontology Based Summarization (OBS) to extract key cancer attributes
+from clinical notes, and to use those attributes to increase the efficacy and efficiency of cancer registry
+data abstraction processes. Achieving this goal requires the development of clear architectures and
+interfaces allowing submission of documents to DeepPhe-CR and retrieval of relevant results, to be
+incorporated into cancer registry workflows.
