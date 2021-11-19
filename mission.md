@@ -30,9 +30,7 @@ by clinicians or researchers with appropriate permissions to read notes de-ident
 or through other appropriate means.
 
    
-# DeepPhe for Cancer Registries (DeepPhe-CR)
-
-Lorem Ipsum   
+# DeepPhe for Cancer Registries (DeepPhe-CR) 
    
    
 The Cancer Deep Phenotype Extraction for the Cancer Registry (DeepPhe-CR) project strives to use 
