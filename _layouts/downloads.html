@@ -53,9 +53,10 @@ bodyClass: page-home
 
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          <h2 class="feature-title"><A HREF="{{ feature.link }}">{{ feature.title }}</a></h2>
+        <div class="feature download-feature">
+          <h2 class="feature-title"><A href="{{ feature.link }}">{{ feature.title }}</a></h2>
           <div class="feature-content">{{ feature.description }}</div>
+          <a href="{{ feature.link }}" class="github-icon"></a>
         </div>
       </div>
       {% endfor %}

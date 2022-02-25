@@ -34,6 +34,24 @@ $lightlink: #7FB3D5;
   text-decoration: none !important;
   display: inline-block;
 }
+.github-icon:before {
+  font: var(--fa-font-solid);
+  content: "\f019";
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none !important;
+  padding-bottom: 20px;
+}
+
+.github-icon {
+  margin-right: 50px;
+}
+.download-feature {
+  padding-bottom: 100px !important;
+}
+
 
 
 h1 {
@@ -47,7 +65,7 @@ p {
 // Links
 // $link-color was $primary;
 //$link-color: $primary;
-$link-color: $primary;
+$link-color: #d7d7d7;
 $link-decoration: none;
 // was lighten($primary)
 $link-hover-color: lighten($link-color, 10%);
@@ -66,6 +84,7 @@ $footer-text-color: $black;
 $sub-footer-background-color: darken($primary, 10%);
 $sub-footer-text-color: $black;
 
+$feature-title-link-color: #000000;
 // Bootstrap
 @import 'bootstrap-variables';
 @import 'bootstrap/bootstrap-reboot';
@@ -102,7 +121,7 @@ $sub-footer-text-color: $black;
 @import 'pages/services/page-services-single';
 
 .non-main-page {
-  padding-top:25px;
+  padding-top:50px;
 }
 
 li {
