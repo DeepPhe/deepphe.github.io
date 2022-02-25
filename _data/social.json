@@ -2,6 +2,6 @@
   {
     "name": "Github",
     "link": "https://github.com/DeepPhe",
-    "image": "images/social/github.svg"
+    "image": "./images/social/github.svg"
   }
 ]

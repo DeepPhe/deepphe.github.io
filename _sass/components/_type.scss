@@ -3,7 +3,7 @@ a {
 }
 p {
   line-height: 26px;
-  color: $steel;
+  color: #c4c4c4;
   font-family: $font-family-base;
   margin-bottom: 20px;
 }
@@ -40,7 +40,7 @@ ol {
   margin: 0;
   padding: 0;
   li {
-    padding: 0;
+    padding: 2px 2px 5px;
     margin: 0;
   }
 }

@@ -2,24 +2,24 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 50px;
   padding-bottom: 60px;
   overflow: hidden;
   @include media-breakpoint-up(md) {
-    padding-top: 140px;
+    padding-top: 50px;
     padding-bottom: 40px;
   }
   h1 {
-    color: $black;
+    color: #ffffff;
     font-size: 42px;
     font-weight: bold;
     line-height: 1.2;
     @include media-breakpoint-up(md) {
       width: 80%;
-      font-size: 48px;
+      font-size: 42px;
     }
     @include media-breakpoint-up(lg) {
-      font-size: 50px;
+      font-size: 42px;
     }
   }
   h2 {
@@ -34,7 +34,7 @@
     font-size: 1.2rem;
     font-weight: light;
     line-height: 1.5;
-    color: $steel;
+    color: #c4c4c4;
     @include media-breakpoint-up(md) {
       width: 80%;
     }

@@ -1,7 +1,11 @@
 .content {
+  h2 a {
+    color: white;
+  }
     a {
-      color: $lightlink;
+      color: #d7d7d7;
       hover-decoration: underline;
+      text-decoration: underline;
       hover-color: $lightlink-hover-color;
   }
   img {
@@ -20,7 +24,7 @@
   p {
     font-family: $font-family-base;
     line-height: 1.56;
-    color: $steel;
+    color: #c4c4c4;
   }
   h1 {
     font-family: sans-serif;

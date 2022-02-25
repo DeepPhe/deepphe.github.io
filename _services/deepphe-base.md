@@ -20,4 +20,3 @@ Supported by the [National Cancer Institute's](https://www.cancer.gov)
 [Surveillance, Epidemiology, and End Results (SEER) program](https://seer.cancer.gov)
  (Grant #UH3CA243120).
 
-

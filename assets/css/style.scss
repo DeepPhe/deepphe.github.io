@@ -2,6 +2,12 @@
 # this ensures Jekyll reads the file to be transformed into CSS later
 ---
 
+@import "fontawesome/fontawesome";
+@import "fontawesome/solid";
+@import "fontawesome/brands";
+
+
+
 // Colors
 // Default Blueish Gray Background
 $primary: #264653;
@@ -16,6 +22,27 @@ $foo: #Ff0000;
 // Default Grayish Blue Link
 //$lightlink: #44829b;
 $lightlink: #7FB3D5;
+
+
+
+.service-title a:after {
+  font: var(--fa-font-solid);
+  content: "\f35d";
+  font-size: 15px;
+  padding-left:10px;
+  vertical-align: top;
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: #c4c4c4;
+}
 
 // Links
 // $link-color was $primary;
@@ -74,6 +101,14 @@ $sub-footer-text-color: $black;
 @import 'pages/team/team-summary';
 @import 'pages/services/page-services-single';
 
+.non-main-page {
+  padding-top:25px;
+}
+
+li {
+  color: #c4c4c4;
+  padding-bottom: 3px;
+}
 body {
   font-size: 16px;
   line-height: 1.2;

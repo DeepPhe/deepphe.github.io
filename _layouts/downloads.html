@@ -3,14 +3,14 @@ title: Jekyll Serif - Jekyll Small Business Theme
 layout: default
 bodyClass: page-home
 ---
-<script src="https://your-site-or-cdn.com/fontawesome/v5.15.4/js/all.js" data-search-pseudo-elements ></script>
-<div class="intro">
+
+<div class="">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 content">
         {{ content }}
         {% if site.homepage.show_call_box %}
-          {% include call.html show_button=true %}
+        {% include call.html show_button=true %}
         {% endif %}
       </div>
       {% if page.intro_image %}
@@ -47,10 +47,8 @@ bodyClass: page-home
 <!--</div>-->
 
 {% if site.data.features %}
-
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1>Software Downloads:</h1>
+<div class="">
+  <div class="container">
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
@@ -58,7 +56,6 @@ bodyClass: page-home
         <div class="feature">
           <h2 class="feature-title"><A HREF="{{ feature.link }}">{{ feature.title }}</a></h2>
           <div class="feature-content">{{ feature.description }}</div>
-          <span class="icon icon-brands icon-figma">Brand Icon</span>
         </div>
       </div>
       {% endfor %}

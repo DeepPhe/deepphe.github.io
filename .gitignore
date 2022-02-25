@@ -1,7 +1,7 @@
 # NPM
 node_modules
 npm-debug.log
-
+*.iml
 # Jekyll
 _site
 _site/
