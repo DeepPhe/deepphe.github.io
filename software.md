@@ -1,5 +1,5 @@
 ---
-title: software
+title: Software
 layout: services
 intro_image: "images/deepphe-patient.png"
 intro_image_absolute: true
