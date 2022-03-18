@@ -3,67 +3,53 @@ title: Jekyll Serif - Jekyll Small Business Theme
 layout: default
 bodyClass: page-home
 ---
-<script src="https://your-site-or-cdn.com/fontawesome/v5.15.4/js/all.js" data-search-pseudo-elements ></script>
+<script data-search-pseudo-elements src="https://your-site-or-cdn.com/fontawesome/v5.15.4/js/all.js"></script>
 <div class="intro">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 content">
-        {{ content }}
-        {% if site.homepage.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
-      </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      </div>
-      {% endif %}
-    </div>
-  </div>
+    <div class="container">
+        <div class="section">
+
+            <div class="row justify-content-start ">
+                <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 content">
+                    {{ content }}
+                    {% if site.homepage.show_call_box %}
+                    {% include call.html show_button=true %}
+                    {% endif %}
+                </div>
+                {% if page.intro_image %}
+                <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 position-relative">
+                    <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+
+                    </div>
+                {% endif %}
+
+                </div>
+
+
+            <div class="row" style="font-size: small">
+                <div class="col-md-12 hp-paper-section"><p>Please read and cite our introductory paper:</p>
+
+                      <p>  <a class="hp-paper-link" href="https://dx.doi.org/10.1158%2F0008-5472.CAN-17-0615">DeepPhe - A
+                            Natural Language Processing System for Extracting Cancer Phenotypes from Clinical
+                            Records</a>
+                        Savova, et al. Cancer Res. 2017 Nov. 1. 77(21)e115-e118. DOI:10.1158/0008-5472.CAN-17-0615.
+                    </p></div>
+
+                    </div>
+
+                </div></div>
+
+
 </div>
+    </div></div>
+            <div class="intro">
+                <div class="container">
+                    <div class="row content section">
+                        <div class="col-md-12">
 
-<!--<div class="strip">-->
-<!--  <div class="container pt-6 pb-6 pb-md-10">-->
-<!--    <div class="row justify-content-start">-->
-<!--      {% for service in site.services %}-->
-<!--      <div class="col-12 col-md-4 mb-1">-->
-<!--        <div class="service service-summary">-->
-<!--          <div class="service-content">-->
-<!--            <h2 class="service-title">-->
-<!--              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>-->
-<!--            </h2>-->
-<!--            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--      {% endfor %}-->
-<!--    </div>-->
-<!--    <div class="row justify-content-center">-->
-<!--      <div class="col-auto">-->
-<!--        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-<!--</div>-->
+                            {% include downloads.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-{% if site.data.features %}
 
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <h1>Software Downloads:</h1>
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature download-feature">
-          <h2 class="feature-title"><A HREF="{{ feature.link }}">{{ feature.title }}</a></h2>
-          <div class="feature-content">{{ feature.description }}</div>
-          <a href="{{ feature.download }}" class="github-icon"></a>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
-</div>
-{% endif %}

@@ -1,0 +1,20 @@
+[
+   {
+      "title": "DeepPhe Translational ",
+      "subtitle": "(DeepPhe-XN)",
+      "link": "https://github.com/DeepPhe/DeepPhe-Release/wiki",
+      "description": "Cancer Deep Phenotype Extraction from Electronic Medical Records.",
+      "download": "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/xn0.4.1",
+      "id": "xn-downloads",
+      "blurb": "Cancer Deep Phenotype Extraction from Electronic Medical Records"
+   },
+   {
+      "title": "DeepPhe Cancer Registry",
+      "subtitle": "(DeepPhe-CR)",
+      "link": "https://github.com/DeepPhe/DeepPhe-CR-Release/wiki",
+      "description": "Natural Language Processing Platform for Cancer Surveillance.",
+      "download" : "https://github.com/DeepPhe/DeepPhe-CR-Release/releases/tag/v0.1.0-cr",
+      "id": "cr-downloads",
+      "blurb": "Natural Language Processing Platform for Cancer Surveillance"
+   }
+]

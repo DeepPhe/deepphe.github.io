@@ -1,0 +1,146 @@
+
+
+<div id="download-navs">
+    <div class="container">
+        <div class="row">
+            <div class="download-row-header-empty">Downloads</div>
+            {% if site.data.deepphe-versions %}
+            <nav class="nav nav-pills nav-justified software-versions-header flex-md-row">
+                {% for version in site.data.deepphe-versions %}
+                <a aria-controls="{{ version.id }}"
+                   class="flex-md-fill flex-md-column nav-item nav-link {% if forloop.first %}active{% endif %}"
+                   data-bs-target="#{{ version.id }}"
+                   data-bs-toggle="pill"
+                   href="#{{ version.id }}"
+                   id="{{ version.id }}-tab"
+                   role="tab"
+                >
+                    <div class="version-title">{{ version.title }}</div>
+                    <div class="version-subtitle">{{ version.subtitle }}</div>
+                    <div class="blurb">{{ version.blurb }}</div>
+                </a>
+                {% endfor %}
+            </nav>
+            {% endif %}
+        </div>
+        <div class="row">
+            <div class="tab-content" id="pills-tabContent">
+                <div aria-labelledby="xn-downloads-tab" class="tab-pane justify-content-center show active"
+                     id="xn-downloads"
+                     role="tabpanel">
+                    {% if site.data.xn-installers %}
+                    <nav class="nav nav-pills software-nav-header">
+                        <div class="container">
+                            <div class="d-flex flex-md-row">
+                                <div class="download-row-header">DeepPhe-XN<br><div class="row-header-second-line">Installers</div></div>
+                                <div class="flex-md-row d-flex software-row">
+                                    {% for download in site.data.xn-installers %}
+                                    <a class="flex-md-column flex-md-fill nav-item nav-link"
+                                       href="{{ download.download }}">
+                                        <div class="software-logo-container">
+                                            <svg class="software-logo" focusable="false" height="50" viewBox="0 0 50 50"
+                                                 width="50">
+                                                <path d="{{ download.icon }}"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="download-title"> {{ download.title }}</div>
+                                        <div class="download-filename"> {{ download.description }}</div>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    {% endif %}
+
+                    {% if site.data.xn-source %}
+                    <nav class="nav nav-pills software-nav-header">
+                        <div class="container">
+                            <div class="d-flex flex-md-row">
+                                <div class="download-row-header">DeepPhe-XN<br><div class="row-header-second-line">Source Code</div></div>
+                                <div class="flex-md-row d-flex software-row">
+                                    {% for download in site.data.xn-source %}
+                                    <a class="flex-md-column flex-md-fill nav-item nav-link"
+                                       href="{{ download.download }}">
+                                        <div class="software-logo-container">
+                                            <svg class="software-logo" focusable="false" height="50" viewBox="0 0 50 50"
+                                                 width="50">
+                                                <path d="{{ download.icon }}"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="download-title"> {{ download.title }}</div>
+                                        <div class="download-filename"> {{ download.description }}</div>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    {% endif %}
+
+                    {% if site.data.viz-source %}
+                    <nav class="nav nav-pills software-nav-header">
+                        <div class="container">
+                            <div class="d-flex flex-md-row">
+                                <div class="download-row-header"><div class="row-header-first-line">DeepPhe-Viz</div><div class="row-header-second-line">Source Code</div></div>
+                                <div class="flex-md-row d-flex software-row">
+                                    {% for download in site.data.viz-source %}
+                                    <a class="flex-md-column flex-md-fill nav-item nav-link"
+                                       href="{{ download.download }}">
+                                        <div class="software-logo-container">
+                                            <svg class="software-logo" focusable="false" height="50" viewBox="0 0 50 50"
+                                                 width="50">
+                                                <path d="{{ download.icon }}"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="download-title"> {{ download.title }}</div>
+                                        <div class="download-filename"> {{ download.description }}</div>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                    {% endif %}
+
+
+
+
+                    </nav>
+                </div>
+
+
+
+                {% if site.data.cr-downloads %}
+                <div aria-labelledby="cr-downloads-tab" class="tab-pane justify-content-center" id="cr-downloads"
+                     role="tabpanel">
+                    <nav class="nav nav-pills software-nav-header">
+                        <div class="container">
+                            <div class="d-flex flex-md-row">
+                                <div class="download-row-header"><div class="row-header-first-line">DeepPhe-CR</div><div class="row-header-second-line">Source Code</div></div>
+                                <div class="flex-md-row d-flex software-row">
+                                    {% for download in site.data.cr-downloads %}
+                                    <a class="flex-md-column flex-md-fill nav-item nav-link"
+                                       href="{{ download.download }}">
+                                        <div class="software-logo-container">
+                                            <svg class="software-logo" focusable="false" height="50" viewBox="0 0 50 50"
+                                                 width="50">
+                                                <path d="{{ download.icon }}"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="download-title"> {{ download.title }}</div>
+                                        <div class="download-filename"> {{ download.description }}</div>
+                                    </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                {% endif %}
+
+
+            </div>
+        </div>
+    </div>
+</div>

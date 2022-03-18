@@ -23,8 +23,192 @@ $foo: #Ff0000;
 //$lightlink: #44829b;
 $lightlink: #7FB3D5;
 
+.hp-paper-link{
+  text-decoration: underline;
+}
+
+.hp-paper-section,
+.hp-paper-section p {
+  margin-bottom:0px !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  color:white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.intro .content p {
+  width:100% !important;
+}
+
+.section {
+  border-radius: 15px;
+  border-style: solid;
+  margin-top: 50px;
+  padding:30px;
+  background-color: rgb(23, 37, 59);
+}
+
+.papers-section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#download-col-header {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row > *,
+.row {
+  padding:0px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.row {
+
+}
+.nav-link {
+  padding-left:  0px;
+  padding-right: 0px;
+  padding:0px;
+  text-align: center;
+}
+.tab-content {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.download-row-header-empty {
+  width:20%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+.download-row-header {
+  margin-top:40px;
+  color:white;
+  width:20%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(23, 37, 59);
+  text-align: center;
+}
+
+.row-header-second-line {
+  font-size:14px;
+}
+#download-navs {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  padding:0px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+
+}
+
+.blurb {
+  font-size: 13px;
+  color:white;
+  margin-top: 5px;
+}
 
 
+.software-versions-header {
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: $secondary;
+  width:80%;
+  margin-left: auto;
+
+}
+
+.software-row {
+  width:80%;
+  margin-left: auto;
+}
+.software-row a,
+.software-versions-header a {
+  flex: 1 1 0px !important;
+}
+.software-versions-header > nav {
+
+}
+.software-versions-header .nav-item {
+  background-color: rgb(23, 37, 59);
+  color: $white;
+
+}
+
+
+.software-versions-header .nav-link {
+  color: $white;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+
+}
+
+.software-versions-header .blurb {
+  color: gray;
+}
+
+.software-versions-header .active .blurb {
+  color: white;
+}
+
+
+.software-versions-header .nav-item.active {
+  background-color: $secondary;
+}
+
+.version-title {
+  font-size: 20px;
+}
+
+.version-subtitle {
+  font-size: 16px;
+}
+.software-versions-header .nav-item {
+  border-radius: 0px;
+}
+
+.download-title {
+  color: $secondary;
+  font-size: 16px;
+}
+
+.software-nav-header a:hover * {
+  background-color: $secondary;
+  color: white;
+  fill: white;
+}
+.software-nav-header  svg {
+  fill: $secondary;
+
+
+}
+
+.software-nav-header {
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.software-logo-container {
+  padding-top:25px;
+}
+.software-nav-header .download-filename {
+  color: white;
+  font-size: 12px;
+  padding-bottom:10px;
+}
 .service-title a:after {
   font: var(--fa-font-solid);
   content: "\f35d";
@@ -34,6 +218,7 @@ $lightlink: #7FB3D5;
   text-decoration: none !important;
   display: inline-block;
 }
+
 
 
 .github-icon:before {
@@ -83,7 +268,7 @@ $font-family-heading: Helvetica, Arial, sans-serif, -apple-system;
 // Footer
 $footer-background-color: $primary;
 $footer-text-color: $black;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: $primary;
 $sub-footer-text-color: $black;
 
 $feature-title-link-color: #000000;
@@ -126,6 +311,9 @@ $feature-title-link-color: #000000;
   padding-top:50px;
 }
 
+.sub-footer .row {
+  background-color: $primary;
+}
 li {
   color: #c4c4c4;
   padding-bottom: 3px;
