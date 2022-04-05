@@ -193,7 +193,8 @@ $lightlink: #7FB3D5;
 }
 .software-nav-header  svg {
   fill: $secondary;
-
+  color: white;
+  fill: white;
 
 }
 
@@ -201,6 +202,8 @@ $lightlink: #7FB3D5;
   border-bottom-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
+  color: white;
+  fill: white;
 }
 
 .software-logo-container {
