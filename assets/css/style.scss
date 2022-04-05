@@ -181,7 +181,7 @@ $lightlink: #7FB3D5;
 }
 
 .download-title {
-  color: $secondary;
+  color: white;
   font-size: 16px;
 }
 
@@ -200,13 +200,12 @@ $lightlink: #7FB3D5;
   border-bottom-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  background-color: $secondary;
-  color: white;
-  fill: white;
 }
 
 .software-logo-container {
   padding-top:25px;
+  color: white;
+  fill: white;
 }
 .software-nav-header .download-filename {
   color: white;
