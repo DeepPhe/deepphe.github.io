@@ -132,7 +132,6 @@ $lightlink: #7FB3D5;
 .software-row {
   width:80%;
   margin-left: auto;
-  background-color: red;
 }
 .software-row a,
 .software-versions-header a {
@@ -166,7 +165,7 @@ $lightlink: #7FB3D5;
 
 
 .software-versions-header .nav-item.active {
-  background-color: $secondary;
+  background-color: red;
 }
 
 .version-title {
