@@ -35,7 +35,7 @@
                                 <div class="download-row-header">DeepPhe-XN<br><div class="row-header-second-line">Installers</div></div>
                                 <div class="flex-md-row d-flex software-row">
                                     {% for download in site.data.xn-installers %}
-                                    <a class="flex-md-column flex-md-fill nav-item nav-link"
+                                    <a class="flex-md-column flex-md-fill nav-item nav-link" onclick='{{ download.window }}'
                                        href="{{ download.download }}">
                                         <div class="software-logo-container">
                                             <svg class="software-logo" focusable="false" height="50" viewBox="0 0 50 50"
