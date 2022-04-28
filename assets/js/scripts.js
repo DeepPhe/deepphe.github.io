@@ -16,7 +16,7 @@ function openWindow() {
     newTab.document.write("<ul> <li>Check out our <a href='https://github.com/DeepPhe/DeepPhe-Release/wiki' target='_blank'>wikipage</a> which gives you step-by-step guides for installation and a quickstart tutorial to get you on the ground running.</li> </ul> ");
     newTab.document.write("<ul> <li>Windows has a warning for our software when you first download it. To bypass the warning press the <b>more info</b> area, to lead you to the <b>Run anyway</b> button.</li> </ul>")
     newTab.document.write("<img src='images/windows_protected_PC_1.png' alt='Windows protected warning' width='300' height='300'></img>")
-    newTab.document.write("<img src='images/windows_protected_PC_2.PNG' alt='Windows protected warning' width='300' height='300'></img>")
+    newTab.document.write("<img src='images/windows_protected_PC_2.png' alt='Windows protected warning' width='300' height='300'></img>")
 
 }
 
