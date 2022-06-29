@@ -1,6 +1,6 @@
 ---
 title: "DeepPhe (base)"
-link: "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/xn0.5.0" 
+link: "https://github.com/DeepPhe/DeepPhe-Release/releases/tag/xn0.5.3" 
 featured: true
 weight: 1
 layout: service
