@@ -19,6 +19,8 @@ of installation and operation.
 DeepPhe-CR has been developed in partnership with the 
 [Kentucky Cancer Registry](https://www.kcr.uky.edu/).
 
+There is a [DeepPhe-CR WIKI](https://github.com/DeepPhe/DeepPhe-CR-Release/wiki) with information on installation and use.
+
 A collaboration with the [National Cancer Institute's](https://www.cancer.gov)
 [Surveillance, Epidemiology, and End Results (SEER) Program](https://seer.cancer.gov) 
  (Grant #UH3CA243120).
