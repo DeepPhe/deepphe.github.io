@@ -7,6 +7,7 @@ google_analytics_id: ""
 homepage:
   show_call_box: false
 
+
 logo:
   mobile: "images/logo/deepphe.png"
   desktop: "images/logo/deepphe.png"
