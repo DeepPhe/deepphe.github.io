@@ -1,6 +1,6 @@
 ---
 title: "DeepPhe-Viz"
-link: "https://github.com/DeepPhe/DeepPhe-Viz/releases/tag/v20210826" 
+link: "https://github.com/DeepPhe/DeepPhe-Viz/releases/tag/v20220825" 
 featured: true
 weight: 3
 layout: service
