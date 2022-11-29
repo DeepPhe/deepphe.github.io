@@ -118,12 +118,6 @@ $lightlink: #7FB3D5;
 
 }
 
-.blurb {
-  font-size: 13px;
-  color:white;
-  margin-top: 5px;
-}
-
 
 .software-versions-header {
   border-bottom-width: 4px;
@@ -160,6 +154,13 @@ $lightlink: #7FB3D5;
   padding-right: 0px;
   padding-top: 0px;
 
+}
+
+.blurb {
+  font-size: 13px;
+  color:$text-color;
+  margin-top: 5px;
+  border-bottom: 1px solid black;
 }
 
 .software-versions-header .blurb {
@@ -215,6 +216,15 @@ $lightlink: #7FB3D5;
   padding-top:25px;
   color: white;
   fill: white;
+}
+
+.embed-container{
+  width: 1025px;
+  height: 576.56px;
+}
+
+a{
+color: $text-color;
 }
 .software-nav-header .download-filename {
   color: white;
