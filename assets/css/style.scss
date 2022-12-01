@@ -12,7 +12,20 @@
 // Default Blueish Gray Background
 $primary: #264653;
 // Greenish Background
-$secondary: #2a9d8f;
+//$secondary: #2a9d8f;
+
+//Attempt 1:
+$section-bc: #FFFFFF;
+
+$text-color: #3C403D;
+
+$download-bc: #3987c9;
+
+$download-tc: #ffffff;
+
+//download background color = dbc
+$secondary-dbc: #87CEEB;
+
 $black: darken(white, 15%);
 $white: #264653;
 $white-offset: #2a9d8f;
@@ -88,7 +101,7 @@ $lightlink: #7FB3D5;
 }
 .download-row-header-empty {
   width:20%;
-  color: white;
+  color: $text-color;
   font-size: 30px;
   text-align: center;
 
