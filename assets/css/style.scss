@@ -239,9 +239,20 @@ $lightlink: #7FB3D5;
 }
 
 .embed-container{
-  width: 1034px;
-  height: 581.63px;
+  position: relative;
+  padding-bottom: 581.63px;
+  height: 0;
+
 }
+
+.embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 a{
 color: $text-color;
