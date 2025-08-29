@@ -2,14 +2,14 @@
    {
       "title": "DeepPhe-Viz Source Code (tar.gz)",
       "icon": "M25.03.934L.159 11.65l24.895 10.632 25.152-10.656L25.03.935zm1.02 22.686v25.686l24.188-11.483V13.345L26.05 23.62zM.001 37.824l24.27 11.483V23.621L.001 13.346v24.478z",
-      "description": "viz0.5.9.tar.gz",
-      "download": "https://github.com/DeepPhe/DeepPhe-Viz/archive/refs/tags/v20220825.tar.gz"
+      "description": "7.1.1.tar.gz",
+      "download": "https://github.com/DeepPhe/DeepPhe-Viz-v2/archive/refs/tags/7.1.1.tar.gz"
    },
    {
       "title": "DeepPhe-Viz Source Code (zip)",
       "icon": "M25.03.934L.159 11.65l24.895 10.632 25.152-10.656L25.03.935zm1.02 22.686v25.686l24.188-11.483V13.345L26.05 23.62zM.001 37.824l24.27 11.483V23.621L.001 13.346v24.478z",
-      "description": "viz0.5.9.tar.gz",
-      "download": "https://github.com/DeepPhe/DeepPhe-Viz/archive/refs/tags/v20220825.zip"
+      "description": "7.1.1.zip",
+      "download": "https://github.com/DeepPhe/DeepPhe-Viz-v2/archive/refs/tags/7.1.1.zip"
    }
 
 ]
