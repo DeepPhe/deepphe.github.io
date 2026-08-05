@@ -3,12 +3,11 @@
     <div class="row">
       <div class="col-12">
         <div class="sub-footer-inner">
-          {% if site.data.social %}
-            {% include social.html %}
-          {% endif %}
-          {% if site.footer.copyright_text %}
-          <div class="copyright">{{ site.footer.copyright_text }}</div>
-          {% endif %}
+{% if site.data.social %}
+{% include social.html %}
+{% endif %}
+{% assign copyright_start_year = site.footer.copyright_start_year | default: 2016 %}
+          <div class="copyright">&copy; {{ copyright_start_year }}-{{ site.time | date: "%Y" }} Boston Children's Hospital and University of Pittsburgh</div>
         </div>
       </div>
     </div>

@@ -1,0 +1,43 @@
+{% assign team = include.team %}
+<article class="team team-summary">
+  <header class="team-card-header">
+{% if team.image and team.image != "" %}
+    <div class="team-image">
+      <img alt="" src="{{ team.image | relative_url }}" />
+    </div>
+{% else %}
+{% assign team_name_words = team.title | split: " " %}
+{% assign team_first_name = team_name_words | first %}
+{% assign team_last_name = team_name_words | last %}
+    <div class="team-image team-image-placeholder" aria-hidden="true">
+      {{ team_first_name | slice: 0 }}{{ team_last_name | slice: 0 }}
+    </div>
+{% endif %}
+    <div class="team-meta">
+      <h3 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h3>
+      <div class="team-role">
+        <p class="team-description">{{ team.jobtitle }}</p>
+      </div>
+{% if team.institution %}
+      <p class="team-institution">
+{% if team.institutionurl %}
+        <a href="{{ team.institutionurl }}">{{ team.institution }}</a>
+{% else %}
+        {{ team.institution }}
+{% endif %}
+      </p>
+{% endif %}
+      <div class="team-specialty">
+{% if team.profession %}
+        <p class="team-profession">{{ team.profession }}</p>
+{% endif %}
+      </div>
+    </div>
+  </header>
+  <div class="team-card-footer">
+    <a class="team-card-profile-link" href="{{ team.url | relative_url }}" aria-label="View profile for {{ team.title }}">
+      <span>View profile</span>
+      <span aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+</article>

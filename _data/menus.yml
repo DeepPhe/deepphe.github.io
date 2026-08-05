@@ -1,22 +1,33 @@
 main:
+  - name: "Visualizer Demo"
+    url: "/visualizer-demo/"
+    weight: 1
+    class: "nav-cta"
+    badge: "New"
   - name: "Home"
     url: "/"
     weight: 2
   - name: "Mission"
     url: "/mission/"
     weight: 3
+  - name: "Team"
+    url: "/team/"
+    weight: 4
   - name: "Software"
     url: "/software/"
-    weight: 4
-  - name: "Videos"
-    url: "/videos/"
     weight: 5
   - name: "Downloads"
     url: "/downloads/"
     weight: 6
-  - name: "Papers"
-    url: "/papers/"
+  - name: "Documentation"
+    url: "/documentation/"
     weight: 7
+  - name: "Video"
+    url: "/videos/"
+    weight: 8
+  - name: "Publications"
+    url: "/papers/"
+    weight: 9
 
 footer:
   - name: "Home"

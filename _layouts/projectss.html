@@ -33,7 +33,7 @@ bodyClass: page-projects-list
                     <h2 class="projects-name"><a href="{{ projects.url | relative_url }}">{{ projects.title }}</a></h2>
                     <p class="projects-description">{{ projects.jobtitle }}</p>
                     {% if projects.linkedinurl %}
-                    <a target="_blank" href="{{ projects.linkedinurl }}">LinkedIn</a>
+                    <a target="_blank" rel="noopener noreferrer" href="{{ projects.linkedinurl }}">LinkedIn</a>
                     {% endif %}
                 </div>
                 <div class="projects-content">{{ projects.content | truncate: 120 }}</div>

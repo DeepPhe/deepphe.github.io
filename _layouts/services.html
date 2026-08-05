@@ -8,10 +8,10 @@ bodyClass: page-services-list
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start section">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1 content">
+      <div class="col-12 {% if page.carousels %}col-md-7 col-lg-6 order-2 order-md-1{% endif %} content">
         {{ content }}
       </div>
-      {% if page.intro_image %}
+      {% if page.carousels %}
       <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 position-relative">
         {% include carousel.html height="100" unit="%" duration="5" number="1" %}
          </div>
@@ -21,19 +21,21 @@ bodyClass: page-services-list
 </div>
 
 <div class="container">
-  <div class="row section">
-    {% assign weighted_services = site.services | sort: "weight" %}
-    {% for service in weighted_services %}
+  <div class="row section services-catalog">
+    {%- assign weighted_services = site.services | sort: "weight" %}
+    {%- for service in weighted_services %}
+    {%- unless service.listed == false %}
     <div class="col-12 col-md-12 mb-3">
       <div class="service service-summary">
         <div class="service-content content">
           <h2 class="service-title">
             <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify }}</p>
+          {{ service.content | markdownify }}
         </div>
       </div>
     </div>
-    {% endfor %}
+    {%- endunless %}
+    {%- endfor %}
   </div>
 </div>

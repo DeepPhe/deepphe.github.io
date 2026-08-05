@@ -1,36 +1,10 @@
 ---
-title: Jekyll Serif - Jekyll Small Business Theme
 layout: default
-bodyClass: page-home
+bodyClass: page-downloads
 ---
 
-<!--{% if site.data.features %}-->
-<!--<div class="">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-
-<!--            {% for feature in site.data.features %}-->
-<!--            <div class="col-12 col-md-6 col-lg-4 mb-2">-->
-<!--                <div class="feature download-feature">-->
-<!--                    <h2 class="feature-title"><A href="{{ feature.link }}">{{ feature.title }}</a></h2>-->
-<!--                    <div class="feature-content">{{ feature.description }}</div>-->
-<!--                    <a class="github-icon" href="{{ feature.download }}"></a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            {% endfor %}-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!--{% endif %}-->
-
-<div class="intro">
-    <div class="container">
-        <div class="row content section">
-            <div class="col-md-12">
-
-                {% include downloads.html %}
-            </div>
-        </div>
+<div class="intro downloads-intro">
+    <div class="container downloads-layout">
+{% include downloads.html %}
     </div>
 </div>

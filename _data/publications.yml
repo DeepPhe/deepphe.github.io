@@ -1,0 +1,632 @@
+- title: "Overview of the 2025 Shared Task on Chemotherapy Treatment Timeline Extraction"
+  authors: "Jiarui Yao, Harry Hochheiser, WonJin Yoon, Eli T Goldner, Guergana K Savova"
+  year: 2025
+  type: conference
+  venue: "Clinical NLP Workshop 2025"
+  original_ids: [1]
+
+- title: "Team NLP4Health at ChemoTimelines 2025: Finetuning Large Language Models for Temporal Relation Extractions from Clinical Notes"
+  authors: "Zhe Zhao, V.G. Vinod Vydiswaran"
+  year: 2025
+  type: conference
+  venue: "Clinical NLP Workshop 2025"
+  original_ids: [2]
+
+- title: "TEAM UAB at Chemotherapy Timelines 2025: Integrating Encoders and Large Language Models for Chemotherapy Timelines Generation"
+  authors: "Vijay Raj Jain, Chris Coffee, Kaiwen He, Remy Cron, Micah Cochrane, Luis Mansilla-Gonzalez, Akhil Nadimpalli, Danish Murad, John D Osborne"
+  year: 2025
+  type: conference
+  venue: "Clinical NLP Workshop 2025"
+  original_ids: [3]
+
+- title: "UW-BioNLP at ChemoTimelines 2025: Thinking, Fine-Tuning, and Dictionary-Enhanced LLM Systems for Chemotherapy Timeline Extraction"
+  authors: "Tianmai M. Zhang, Zhaoyi Sun, Sihang Zeng, CHENXI LI, Neil F. Abernethy, Barbara D. Lam, Fei Xia, Meliha Yetisgen"
+  year: 2025
+  type: conference
+  venue: "Clinical NLP Workshop 2025"
+  original_ids: [4]
+
+- title: "Informatics at the Frontier of Cancer Research"
+  authors: "Noller K, Botsis T, Camara PG, Ciotti L, Cooper LAD, Goecks J, Griffith M, Haas BJ, Ideker T, Karchin R, Kontos D, Lai J, Marcus D, Meyer CA, Naegle K, Pati S, Peters B, Pratt D, Raphael BJ, Reich M, Savova GK, Wright C, Fertig EJ, Bakas S"
+  year: 2025
+  type: journal
+  venue: "Cancer Research"
+  doi: "10.1158/0008-5472.CAN-24-2829"
+  pmid: "40600473"
+  pmcid: "PMC12355178"
+  original_ids: [5]
+
+- title: "Reimagining Evidence: AI Synthetic Data Generation for Cancer Research"
+  authors: "Guergana Savova, Shan Chen, Jiarui Yao, Danielle Bitterman"
+  year: 2025
+  type: journal
+  venue: "JCO Clinical Cancer Informatics"
+  doi: "10.1200/CCI-25-00304"
+  original_ids: [7]
+
+- title: "Systemic anticancer therapy timelines extraction from electronic medical records text: algorithm development and validation"
+  authors: "Jiarui Yao, Eli Goldner, Harry Hochheiser, Sean Finan, John Levander, David Harris, Piet C de Groen, Elizabeth Buchbinder, Danielle Bitterman, Jeremy L Warner, Guergana Savova"
+  year: 2025
+  type: journal
+  venue: "JMIR Bioinformatics and Biotechnology"
+  original_ids: [9]
+
+- title: "Extracting Knowledge From Scientific Texts on Patient-Derived Cancer Models Using Large Language Models: Algorithm Development and Validation Study"
+  authors: "Jiarui Yao, Zinaida Perova, Tushar Mandloi, Elizabeth Lewis, Helen Parkinson, Guergana Savova"
+  year: 2025
+  type: journal
+  venue: "JMIR Bioinformatics and Biotechnology"
+  original_ids: [10]
+
+- title: "As bleak as it sounds? Analysing trends in oncology clinical trial initiation in the UK from 2010 to 2022"
+  authors: "VanHelene AD, Hadfield MJ, Trapani D, Warner JL, Lythgoe MP"
+  year: 2024
+  type: journal
+  venue: "BMJ Oncology"
+  doi: "10.1136/bmjonc-2024-000410"
+  pmid: "39886121"
+  pmcid: "PMC11347684"
+  original_ids: [6]
+
+- title: "Inferring gender from first names: Comparing the accuracy of Genderize, Gender API, and the gender R package on authors of diverse nationality"
+  authors: "Alexander D VanHelene, Ishaani Khatri, C Beau Hilton, Sanjay Mishra, Ece D Gamsiz Uzun, Jeremy L Warner"
+  year: 2024
+  type: journal
+  venue: "PLOS Digital Health"
+  doi: "10.1371/journal.pdig.0000456"
+  original_ids: [8]
+
+- title: "A New Era of Data-Driven Cancer Research and Care: Opportunities and Challenges"
+  authors: "Felicia Gomez, Arpad M Danos, Guilherme Del Fiol, Anant Madabhushi, Pallavi Tiwari, Joshua F McMichael, Spyridon Bakas, Jiang Bian, Christos Davatzikos, Elana J Fertig, Jayashree Kalpathy-Cramer, Johanna Kenney, Guergana K Savova, Meliha Yetisgen, Eliezer M Van Allen, Jeremy L Warner, Fred Prior, Malachi Griffith, Obi L Griffith"
+  year: 2024
+  type: journal
+  venue: "Cancer Discovery"
+  original_ids: [11]
+
+- title: "Extracting Systemic Anticancer Therapy Timelines from Electronic Medical Records using Large Language Models"
+  authors: "Jiarui Yao, Eli Goldner, David Harris, Guergana Savova"
+  year: 2024
+  type: conference
+  venue: "Artificial Intelligence in Oncology Workshop collocated with the 22nd International Conference on Artificial Intelligence in Medicine"
+  location: "Salt Lake City, UT"
+  original_ids: [17]
+
+- title: "Extraction of Chemotherapy Treatment Timelines from EHR Notes and Temporal Modeling of Cancer Treatment in Adult and Pediatric Patients"
+  authors: "Harry Hochheiser, Jiarui Yao, Eli Goldner, Sean Finan, John Levander, Dennis Johns, David Harris, Gabrielle Dihn, Piet C. de Groen, Elizabeth Buchbinder, Danielle Bitterman, Jeremy L Warner, Guergana Savova"
+  year: 2024
+  type: conference
+  venue: "AMIA Summit"
+  location: "Boston, MA"
+  original_ids: [18]
+
+- title: "Overview of the 2024 Shared Task on Chemotherapy Treatment Timeline Extraction"
+  authors: "Jiarui Yao, Harry Hochheiser, WonJin Yoon, Eli T Goldner, Guergana K Savova"
+  year: 2024
+  type: conference
+  venue: "Clinical NLP Workshop collocated with NAACL 2024"
+  location: "Mexico City, Mexico"
+  original_ids: [19]
+
+- title: "DeepPhe-CR: Natural Language Processing Software Services for Cancer Registrar Case Abstraction"
+  authors: "Hochheiser H, Finan S, Yuan Z, Durbin EB, Jeong JC, Hands I, Rust D, Kavuluru R, Wu X, Warner JL, Savova G"
+  year: 2023
+  type: preprint
+  venue: "medRxiv"
+  doi: "10.1101/2023.05.05.23289524"
+  url: "https://www.medrxiv.org/content/10.1101/2023.05.05.23289524v1"
+  presented_at:
+    - venue: "NAACCR Annual Conference"
+      year: 2024
+    - venue: "AMIA Annual Fall Symposium"
+      year: 2023
+  original_ids: [12, 13, 27]
+
+- title: "DeepPhe: Natural Language Processing Tools for Cancer Research and Surveillance"
+  authors: "Finan S, Levander J, Hochheiser H, Yuan Z, Durbin EB, Hands I, Kavuluru R, Warner JL, Savova G"
+  year: 2023
+  type: conference
+  venue: "31st Annual Intelligent Systems for Molecular Biology and 22nd Annual European Conference on Computational Biology"
+  presented_at:
+    - venue: "AMIA Annual Symposium"
+      year: 2022
+      location: "Washington, DC"
+  original_ids: [14, 16, 30]
+
+- title: "Clinical Natural Language Processing and Neural Networks"
+  authors: "Sean Finan"
+  year: 2023
+  type: conference
+  venue: "Community Over Code, North America annual conference"
+  original_ids: [15]
+
+- title: "Resources and Tools for Ethical Data Handling"
+  authors: "Baek H, Hochheiser H, Finan S, Yuan Z, Levander J, Durbin EB, Hands I, Kavuluru R, Warner JL, Savova G, Hanauer D, Wright C, Savonen C, Goecks J, Jeremiah RD, Leek J"
+  year: 2023
+  type: conference
+  venue: "ISMB Conference Technical Demo"
+  url: "https://www.youtube.com/watch?v=Q59fUNVUUIk"
+  presented_at:
+    - venue: "ISMB/ECCB Technology Track"
+      year: 2023
+      location: "Lyon, France"
+  original_ids: [20, 26]
+
+- title: "Development of a Multi-variate Time Series Data Set for Reportable Cancer Recurrence (MVTS-CanRecur)"
+  authors: "John Osborne, Gaurav Goyal, Chris Coffee, Sarah Fittro"
+  year: 2023
+  type: conference
+  venue: "AMIA Annual Symposium"
+  location: "New Orleans, LA"
+  original_ids: [21]
+
+- title: "An End-to-End Natural Language Processing System for Automatically Extracting Radiation Therapy Events From Clinical Texts"
+  authors: "Bitterman DS, Goldner E, Finan S, Harris D, Durbin EB, Hochheiser H, Warner JL, Mak RH, Miller T, Savova GK"
+  year: 2023
+  type: journal
+  venue: "International Journal of Radiation Oncology Biology Physics"
+  doi: "10.1016/j.ijrobp.2023.03.055"
+  pmid: "36990288"
+  pmcid: "PMC10522797"
+  original_ids: [22, 28]
+
+- title: "Evaluation of software impact designed for biomedical research: Are we measuring what's meaningful?"
+  authors: "Afiaz A, Ivanov A, Chamberlin J, Hanauer D, Savonen C, Goldman MJ, Morgan M, Reich M, Getka A, Holmes A, Pati S, Knight D, Boutros PC, Bakas S, Caporaso G, Del Fiol G, Hochheiser H, Hass B, Scholss PD, Jeedy JA, Albrecht J, Fedorov A, Waldron L, Hoffman AM, Bradshaw RL, Leek JT, Wright C"
+  year: 2023
+  type: preprint
+  venue: "arXiv"
+  doi: "10.48550/arXiv.2306.03255"
+  original_ids: [23]
+
+- title: "Enhancing Access to Genomics Tools"
+  authors: "Howard Baek, Elizabeth Humphries, Sean Finan"
+  year: 2023
+  type: conference
+  venue: "ISMB/ECCB Technology Track"
+  location: "Lyon, France"
+  url: "https://www.youtube.com/watch?v=wI5VRdERp-Y"
+  original_ids: [24]
+
+- title: "Two-Stage Fine-Tuning for Improved Bias and Variance for Large Pretrained Language Models"
+  authors: "Wang L, Li Y, Savova G"
+  year: 2023
+  type: conference
+  venue: "ACL 2023"
+  location: "Toronto, Canada"
+  original_ids: [25]
+
+- title: "Unstructured Data: Drawing Meaning Across Domains to Inform Healthcare"
+  authors: "Savova G"
+  year: 2022
+  type: talk
+  venue: "Machine Learning and Health Outcomes in Cancer Care Delivery Research"
+  location: "Washington, DC"
+  original_ids: [29]
+
+- title: "Ensemble-based Fine-Tuning Strategy for Temporal Relation Extraction from the Clinical Narrative"
+  authors: "Wang L, Miller T, Bethard S, Savova G"
+  year: 2022
+  type: conference
+  venue: "Clinical NLP Workshop at NAACL"
+  location: "Seattle, WA"
+  original_ids: [31]
+
+- title: "EntityBERT: Entity-centric Masking Strategy for Model Pretraining for the Clinical Domain"
+  authors: "Lin C, Miller T, Dligach D, Bethard S, Savova G"
+  year: 2021
+  type: conference
+  venue: "BioNLP Workshop at NAACL"
+  original_ids: [32]
+
+- title: "Clinical Natural Language Processing for Radiation Oncology: A Review and Practical Primer"
+  authors: "Bitterman DS, Miller TA, Mak RH, Savova GK"
+  year: 2021
+  type: journal
+  venue: "International Journal of Radiation Oncology Biology Physics"
+  doi: "10.1016/j.ijrobp.2021.01.044"
+  pmid: "33545300"
+  original_ids: [34]
+
+- title: "Characterizing the Anticancer Treatment Trajectory and Pattern in Patients Receiving Chemotherapy for Cancer Using Harmonized Observational Databases: Retrospective Study"
+  authors: "Jeon H, You SC, Kang SY, Seo SI, Warner JL, Belenkaya R, Park RW"
+  year: 2021
+  type: journal
+  venue: "Journal of Medical Internet Research"
+  pmid: "33720842"
+  pmcid: "PMC8058693"
+  original_ids: [35]
+
+- title: "Defining and Learning Refined Temporal Relations in the Clinical Narrative"
+  authors: "Wright-Bettner K, Lin C, Miller T, Bethard S, Dligach D, Palmer M, Martin JH, Savova G"
+  year: 2020
+  type: conference
+  venue: "LOUHI at EMNLP"
+  url: "https://www.aclweb.org/anthology/2020.louhi-1.12.pdf"
+  original_ids: [33]
+
+- title: "Interactive Exploration of Longitudinal Cancer Patient Histories Extracted From Clinical Text"
+  authors: "Yuan Z, Finan S, Warner J, Savova G, Hochheiser H"
+  year: 2020
+  type: journal
+  venue: "JCO Clinical Cancer Informatics"
+  doi: "10.1200/CCI.19.00115"
+  pmid: "32383981"
+  pmcid: "PMC7265796"
+  original_ids: [36]
+
+- title: "Open Source Software Sustainability Models: Initial White Paper from the Informatics Technology for Cancer Research Sustainability and Industry Partnership Work Group"
+  authors: "Ye Y, Boyce RD, Davis MK, Elliston K, Davatzikos C, Fedorov A, Fillion-Robin JC, Foster I, Gilbertson J, Heiskanen M, Klemm J, Lasso A, Miller JV, Morgan M, Pieper S, Raumann B, Sarachan B, Savova G, Silverstein JC, Taylor D, Zelnis J, Zhang GQ, Becich MJ"
+  year: 2019
+  type: preprint
+  venue: "arXiv"
+  url: "https://arxiv.org/abs/1912.12371"
+  original_ids: [37]
+
+- title: "Use of Natural Language Processing to Extract Clinical Cancer Phenotypes from Electronic Medical Records"
+  authors: "Savova GK, Danciu I, Alamudun F, Miller T, Lin C, Bitterman DS, Tourassi G, Warner JL"
+  year: 2019
+  type: journal
+  venue: "Cancer Research"
+  doi: "10.1158/0008-5472.CAN-19-0579"
+  pmid: "31395609"
+  pmcid: "PMC7227798"
+  original_ids: [38]
+
+- title: "HemOnc: A new standard vocabulary for chemotherapy regimen representation in the OMOP common data model"
+  authors: "Warner JL, Dymshyts D, Reich CG, Gurley MJ, Hochheiser H, Moldwin ZH, Belenkaya R, Williams AE, Yang PC"
+  year: 2019
+  type: journal
+  venue: "Journal of Biomedical Informatics"
+  doi: "10.1016/j.jbi.2019.103239"
+  pmid: "31238109"
+  pmcid: "PMC6697579"
+  original_ids: [39]
+
+- title: "Computerized Approach to Creating a Systematic Ontology of Hematology/Oncology Regimens"
+  authors: "Malty AM, Jain SK, Yang PC, Harvey K, Warner JL"
+  year: 2018
+  type: journal
+  venue: "JCO Clinical Cancer Informatics"
+  doi: "10.1200/CCI.17.00142"
+  pmid: "30238070"
+  pmcid: "PMC6141041"
+  original_ids: [40]
+
+- title: "Towards Portable Entity-Centric Clinical Coreference Resolution"
+  authors: "Miller T, Dligach D, Bethard S, Lin C, Savova G"
+  year: 2017
+  type: journal
+  venue: "Journal of Biomedical Informatics"
+  doi: "10.1016/j.jbi.2017.04.015"
+  url: "http://www.sciencedirect.com/science/article/pii/S1532046417300850"
+  original_ids: [41]
+
+- title: "Automated annotation and classification of BI-RADS assessment from radiology reports"
+  authors: "Castro SM, Tseytlin E, Medvedeva O, Mitchell K, Visweswaran S, Bekhuis T, Jacobson RS"
+  year: 2017
+  type: journal
+  venue: "Journal of Biomedical Informatics"
+  doi: "10.1016/j.jbi.2017.04.011"
+  pmid: "28428140"
+  pmcid: "PMC5706448"
+  original_ids: [42]
+
+- title: "Representations of Time Expressions for Temporal Relation Extraction with Convolutional Neural Networks"
+  authors: "Lin C, Miller T, Dligach D, Bethard S, Savova G"
+  year: 2017
+  type: conference
+  venue: "BioNLP Workshop at ACL"
+  location: "Vancouver, Canada"
+  original_ids: [43]
+
+- title: "Unsupervised Domain Adaptation for Clinical Negation Detection"
+  authors: "Miller T, Bethard S, Amiri H, Savova G"
+  year: 2017
+  type: conference
+  venue: "BioNLP Workshop at ACL"
+  location: "Vancouver, Canada"
+  original_ids: [44]
+
+- title: "DeepPhe: A Natural Language Processing System for Extracting Cancer Phenotypes from Clinical Records"
+  authors: "Savova G, Tseytlin E, Finan S, Castine M, Miller T, Medvedeva O, Harris D, Hochheiser H, Lin C, Chavan G, Jacobson R"
+  year: 2017
+  type: journal
+  venue: "Cancer Research"
+  doi: "10.1158/0008-5472.CAN-17-0615"
+  featured: true
+  presented_at:
+    - venue: "AMIA Annual Symposium"
+      year: 2017
+      location: "Washington, DC"
+    - venue: "NAACCR Annual Conference"
+      year: 2018
+      location: "Pittsburgh, PA"
+  original_ids: [45, 46, 71]
+
+- title: "Neural temporal relation extraction"
+  authors: "Dligach D, Miller T, Lin C, Bethard S, Savova G"
+  year: 2017
+  type: conference
+  venue: "EACL 2017"
+  location: "Valencia, Spain"
+  original_ids: [51]
+
+- title: "Improving Temporal Relation Extraction with Training Instance Augmentation"
+  authors: "Chen L, Miller T, Dligach D, Bethard S, Savova G"
+  year: 2016
+  type: conference
+  venue: "BioNLP Workshop at ACL"
+  location: "Berlin, Germany"
+  original_ids: [48]
+
+- title: "An Information Model for Cancer Phenotypes"
+  authors: "Hochheiser H, Castine M, Harris D, Savova G, Jacobson R"
+  year: 2016
+  type: journal
+  venue: "BMC Medical Informatics and Decision Making"
+  doi: "10.1186/s12911-016-0358-4"
+  url: "https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0358-4"
+  original_ids: [49]
+
+- title: "Enhancing Clinical Temporal Relation Discovery with Syntactic Embeddings from GloVe"
+  authors: "Ethan Hartzell, Chen Lin"
+  year: 2016
+  type: conference
+  venue: "International Conference on Intelligent Biology and Medicine"
+  location: "Houston, TX"
+  original_ids: [50]
+
+- title: "Natural language processing for phenotype extraction: challenges and representation"
+  authors: "Hochheiser H, Jacobson R, Washington N, Denny J, Savova G"
+  year: 2015
+  type: conference
+  venue: "AMIA Annual Symposium"
+  location: "San Francisco, CA"
+  original_ids: [52]
+
+- title: "Semi-supervised Learning for Phenotyping Tasks"
+  authors: "Dmitriy Dligach, Timothy Miller, Guergana K. Savova"
+  year: 2015
+  type: conference
+  venue: "AMIA Annual Symposium"
+  location: "San Francisco, CA"
+  original_ids: [53]
+
+- title: "Layered temporal modeling for the clinical domain"
+  authors: "Chen L, Dligach D, Miller T, Bethard S, Savova G"
+  year: 2015
+  type: journal
+  venue: "Journal of the American Medical Informatics Association"
+  url: "http://jamia.oxfordjournals.org/content/early/2015/10/31/jamia.ocv113"
+  original_ids: [54]
+
+- title: "Cancer Deep Phenotyping from Electronic Medical Records"
+  authors: "Savova G, Hochheiser H"
+  year: 2021
+  type: talk
+  venue: "Workshop at NAACCR"
+  location: "Virtual"
+  presented_at:
+    - venue: "Department of Biomedical Informatics Seminar Series, Vanderbilt University"
+      year: 2021
+      location: "Nashville, TN"
+  original_ids: [55, 56]
+
+- title: "Natural Language Processing for Biomedicine"
+  authors: "Savova G"
+  year: 2021
+  type: talk
+  venue: "Informatics and Implementation Science Learning Series"
+  location: "Brown University, RI"
+  original_ids: [57]
+
+- title: "De-identification of Clinical Text: Stakeholder's Perspectives and Acceptance of Automatic De-identification"
+  authors: "Meystre S, Silverstein J, Savova G, Petkov V, Savova G, Malin B"
+  year: 2020
+  type: panel
+  venue: "AMIA Annual Symposium"
+  location: "Virtual"
+  original_ids: [58]
+
+- title: "Natural Language Processing for Cancer Deep Phenotyping"
+  authors: "Savova G"
+  year: 2020
+  type: talk
+  venue: "Observational Health Data Sciences and Informatics consortium"
+  location: "Virtual"
+  original_ids: [59]
+
+- title: "Clinical Natural Language Processing, Some Tasks and Applications in Medicine"
+  authors: "Savova G"
+  year: 2020
+  type: talk
+  venue: "LOUHI at EMNLP"
+  location: "Virtual"
+  original_ids: [60]
+
+- title: "Current status, performance, and future development of clinical text de-identification systems: MIST system"
+  authors: "Savova G"
+  year: 2020
+  type: talk
+  venue: "National Cancer Institute, National Institutes of Health"
+  location: "Washington, DC"
+  original_ids: [61]
+
+- title: "Acceptance of machine text de-identification of EMR data by all stakeholders: What do we need to consider?"
+  authors: "Savova G"
+  year: 2020
+  type: talk
+  venue: "National Cancer Institute, National Institutes of Health"
+  location: "Washington, DC"
+  original_ids: [62]
+
+- title: "Cancer Deep Phenotype Extraction from Electronic Medical Records"
+  authors: "Savova G, Hochheiser H"
+  year: 2019
+  type: talk
+  venue: "Data Science Seminar Series, National Cancer Institute"
+  location: "Washington, DC"
+  original_ids: [63]
+
+- title: "Tools and Software to Automate and Normalize the Cancer Data Abstraction Workflow"
+  authors: "Warner J, Durbin E, Petkov V, Savova G"
+  year: 2019
+  type: conference
+  venue: "NAACCR and IACR Conference Workshop"
+  location: "Vancouver, Canada"
+  original_ids: [64]
+
+- title: "Cancer Deep Phenotype Extraction from Electronic Medical Records"
+  authors: "Savova G"
+  year: 2019
+  type: talk
+  venue: "Molecular Med Tri-con"
+  location: "San Francisco, CA"
+  original_ids: [65]
+
+- title: "Toward Longitudinal Visual Analytics for Cancer Patient Trajectories Extracted from Clinical Text"
+  authors: "Yuan Z, Finan S, Warner J, Savova G, Hochheiser H"
+  year: 2018
+  type: conference
+  venue: "Workshop on Visual Analytics and Healthcare, AMIA"
+  location: "San Francisco, CA"
+  original_ids: [66]
+
+- title: "Computable Longitudinal Patient Trajectories"
+  authors: "Warner J, Elhadad N, Bastrache L, Gotz D, Savova G"
+  year: 2018
+  type: panel
+  venue: "AMIA Annual Symposium"
+  location: "San Francisco, CA"
+  original_ids: [67]
+
+- title: "Software and Research Challenges for Clinical NLP"
+  authors: "Savova G"
+  year: 2018
+  type: talk
+  venue: "Dana Farber Cancer Institute"
+  location: "Boston, MA"
+  presented_at:
+    - venue: "UPMC"
+      year: 2018
+      location: "Pittsburgh, PA"
+  original_ids: [68, 69]
+
+- title: "Cancer Deep Phenotype Extraction from Electronic Medical Records (DeepPhe)"
+  authors: "Savova G"
+  year: 2018
+  type: talk
+  venue: "Astra Zeneca"
+  location: "Waltham, MA"
+  original_ids: [70]
+
+- title: "A Comprehensive Ontology of Hematology/Oncology Regimens"
+  authors: "Yang C, Malty A, Jain S, Harvey K, Finan S, Warner J"
+  year: 2018
+  type: conference
+  venue: "NAACCR Annual Conference"
+  location: "Pittsburgh, PA"
+  original_ids: [72]
+
+- title: "Capturing high-resolution temporal cancer phenotypes using DeepPhe"
+  authors: "Warner J, Harris D, Rubenstein S, Finan S, Lin C, Miller T, Amiri H, Hochheiser H, Savova G"
+  year: 2018
+  type: conference
+  venue: "NAACCR Annual Conference"
+  location: "Pittsburgh, PA"
+  original_ids: [73]
+
+- title: "DeepPhe and Extraction of Oncology Patient Phenotypes from Unstructured Text Using NLP and Other AI Tools"
+  authors: "Savova G, Miller T"
+  year: 2018
+  type: talk
+  venue: "Dana Farber Cancer Institute"
+  location: "Boston, MA"
+  original_ids: [47, 74]
+
+- title: "Supporting cancer registries through automated extraction of pathology and chemotherapy regimen information"
+  authors: "Warner J"
+  year: 2017
+  type: talk
+  venue: "CDC/NCI/FDA/VA Clinical Natural Language Processing Workshop"
+  location: "Atlanta, GA"
+  original_ids: [75]
+
+- title: "Select Applications of Natural Language Processing in Biomedicine"
+  authors: "Savova G"
+  year: 2017
+  type: talk
+  venue: "Natural Language Processing Symposium, Boston University"
+  location: "Boston, MA"
+  original_ids: [76]
+
+- title: "Invited presentation at Case Western University Comprehensive Cancer Center Seminar Series"
+  authors: "Jacobson R"
+  year: 2017
+  type: talk
+  venue: "Case Western University Comprehensive Cancer Center Seminar Series"
+  location: "Cleveland, OH"
+  original_ids: [77]
+
+- title: "Invited presentation at Ohio State University James Cancer Center Grand Rounds"
+  authors: "Jacobson R"
+  year: 2017
+  type: talk
+  venue: "Ohio State University James Cancer Center Grand Rounds"
+  location: "Columbus, OH"
+  original_ids: [78]
+
+- title: "Invited presentation at SEER meeting"
+  authors: "Jacobson R, Savova G"
+  year: 2016
+  type: talk
+  venue: "SEER meeting"
+  location: "Gaithersburg, MD"
+  original_ids: [79]
+
+- title: "Invited presentation at University of Pittsburgh Cancer Institute Scientific Retreat"
+  authors: "Jacobson R"
+  year: 2016
+  type: talk
+  venue: "University of Pittsburgh Cancer Institute Scientific Retreat"
+  location: "Pittsburgh, PA"
+  original_ids: [80]
+
+- title: "Invited presentation at Pathology Informatics"
+  authors: "Jacobson R"
+  year: 2016
+  type: talk
+  venue: "Pathology Informatics"
+  location: "Pittsburgh, PA"
+  original_ids: [81]
+
+- title: "Invited presentation at University of Michigan Department of Learning Health Sciences"
+  authors: "Jacobson R"
+  year: 2016
+  type: talk
+  venue: "University of Michigan Department of Learning Health Sciences"
+  location: "Ann Arbor, MI"
+  original_ids: [82]
+
+- title: "Invited presentation at CI4CC"
+  authors: "Finan S"
+  year: 2016
+  type: talk
+  venue: "Cancer Informatics for Cancer Centers"
+  location: "Napa, CA"
+  original_ids: [83]
+
+- title: "Invited presentation at University of Pittsburgh Cancer Informatics External Advisory Board"
+  authors: "Jacobson R"
+  year: 2016
+  type: talk
+  venue: "University of Pittsburgh Cancer Informatics"
+  location: "Pittsburgh, PA"
+  original_ids: [84]
+
+- title: "Invited presentation at SEER PI meeting"
+  authors: "Jacobson R"
+  year: 2016
+  type: talk
+  venue: "SEER PI meeting"
+  location: "New Mexico, NM"
+  original_ids: [85]

@@ -1,14 +1,21 @@
 ---
 title: "Sean Finan"
-date: 2018-11-19T10:47:58+10:00
-draft: false
 image: ""
-jobtitle: "Developer"
-linkedinurl: ""
-weight: 5
+jobtitle: "Principal Engineer"
+summary: "Principal engineer responsible for the design and implementation of DeepPhe's core software."
+institution: "Boston Children's Hospital"
+institutionurl: "https://www.chip.org/"
+profileurl: ""
+group: "technical-leadership"
+listed: true
+weight: 4
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Sean Finan is DeepPhe's principal software architect and engineer, and Research Computing Principal Engineer in 
+the Natural Language Processing Lab at the Computational Health Informatics Program of Boston Children's Hospital.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sean designs the DeepPhe ontologies and the DeepPhe NLP Patient Summarizer, and helps guide the course and development of the overall DeepPhe system.  
+Sean is a leading contributor to the related [Apache cTAKES](https://github.com/apache/ctakes) clinical NLP project, 
+an active member of the related [HealthNLP .org](https://github.com/HealthNLPorg), and an advocate for open-source software for science.
+ 

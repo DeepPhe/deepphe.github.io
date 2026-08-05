@@ -1,11 +1,11 @@
 
-<div id="main-menu" class="main-menu">
-  {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
+<nav id="main-menu" class="main-menu" aria-label="Primary">
+{% assign mainmenu = site.data.menus.main | sort: 'weight' %}
   <ul>
-    {% for item in mainmenu %}
-    <li class="{% if item.url == page.url %}active{% endif %}">
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+{% for item in mainmenu %}
+    <li class="{{ item.class }}{% if item.url == page.url %} active{% endif %}">
+      <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.name }}{% if item.badge %} <span class="nav-badge">{{ item.badge }}</span>{% endif %}</a>
     </li>
-    {% endfor %}
+{% endfor %}
   </ul>
-</div>
+</nav>

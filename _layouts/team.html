@@ -2,13 +2,45 @@
 layout: default
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="container standard-page-layout">
   <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="team team-single">
-        <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
-      </div>
+    <div class="col-12 col-xl-10">
+      <article class="team team-single">
+        <header class="team-single-header{% unless page.image and page.image != "" %} team-single-header-no-image{% endunless %}">
+{% if page.image and page.image != "" %}
+          <div class="team-single-image">
+            <img alt="" src="{{ page.image | relative_url }}" />
+          </div>
+{% endif %}
+          <div class="team-single-meta">
+            <h1 class="title">{{page.title}}</h1>
+            <p class="team-single-role">{{ page.jobtitle }}</p>
+{% if page.profession %}
+            <p class="team-single-profession">{{ page.profession }}</p>
+{% endif %}
+{% if page.institution %}
+            <p class="team-single-institution">
+{% if page.institutionurl %}
+              <a href="{{ page.institutionurl }}">{{ page.institution }}</a>
+{% else %}
+              {{ page.institution }}
+{% endif %}
+            </p>
+{% endif %}
+          </div>
+        </header>
+        <div class="team-single-body">
+          <div class="content">{{content}}</div>
+{% if page.profileurl %}
+          <div class="team-single-actions">
+            <a class="team-single-profile-link" href="{{ page.profileurl }}" aria-label="View official profile for {{ page.title }}">
+              <span>Official profile</span>
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+{% endif %}
+        </div>
+      </article>
     </div>
   </div>
 </div>

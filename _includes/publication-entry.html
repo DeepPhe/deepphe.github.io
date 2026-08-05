@@ -1,0 +1,79 @@
+{% assign item = include.item %}
+{% assign heading_level = include.heading_level | default: 4 %}
+{% assign journal_types = "journal,preprint" | split: "," %}
+{% assign presentation_types = "conference,talk,panel,pres" | split: "," %}
+{% assign publication_category = item.type %}
+{% if journal_types contains item.type %}
+{% assign publication_category = "journal" %}
+{% elsif presentation_types contains item.type %}
+{% assign publication_category = "presentation" %}
+{% endif %}
+{% assign type_label = item.type | capitalize %}
+{% if item.type == "pres" %}
+{% assign type_label = "Presentation" %}
+{% endif %}
+{% assign track_entry = true %}
+{% if include.track == false %}
+{% assign track_entry = false %}
+{% endif %}
+{% capture search_blob %}
+{{ item.title }} {{ item.authors }} {{ item.venue }}
+{% if item.presented_at %}
+{% for appearance in item.presented_at %} {{ appearance.venue }}{% endfor %}
+{% endif %}
+{% endcapture %}
+{% assign current_year = site.time | date: "%Y" | plus: 0 %}
+
+<article class="publication-entry"{% if track_entry %} data-publication-entry data-type="{{ item.type }}" data-category="{{ publication_category }}" data-search="{{ search_blob | strip_newlines | escape }}"{% endif %} data-cite-type="{{ item.type | escape }}" data-cite-title="{{ item.title | escape }}" data-cite-authors="{{ item.authors | escape }}" data-cite-year="{{ item.year | escape }}" data-cite-venue="{{ item.venue | escape }}" data-cite-location="{{ item.location | escape }}" data-cite-doi="{{ item.doi | escape }}" data-cite-pmid="{{ item.pmid | escape }}" data-cite-pmcid="{{ item.pmcid | escape }}" data-cite-url="{{ item.url | escape }}">
+  <h{{ heading_level }} class="publication-title">{{ item.title }}</h{{ heading_level }}>
+  <p class="publication-authors">{{ item.authors }}</p>
+  <div class="publication-meta">
+    <span class="publication-badge publication-badge-{{ item.type }}">{{ type_label }}</span>
+{% if item.year == current_year %}
+    <span class="publication-new">New</span>
+{% endif %}
+    <span class="publication-venue">{{ item.venue }} &middot; {{ item.year }}</span>
+{% if item.location %}
+    <span class="publication-location">{{ item.location }}</span>
+{% endif %}
+    <span class="publication-links">
+{% if item.doi %}
+      <a href="https://doi.org/{{ item.doi }}">DOI</a>
+{% endif %}
+{% if item.pmid %}
+      <a href="https://pubmed.ncbi.nlm.nih.gov/{{ item.pmid }}/">PubMed</a>
+{% endif %}
+{% if item.pmcid %}
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/{{ item.pmcid }}/">PMCID</a>
+{% endif %}
+{% if item.url %}
+{% assign url_label = "Link" %}
+{% if item.url contains ".pdf" %}
+{% assign url_label = "PDF" %}
+{% endif %}
+      <a href="{{ item.url }}">{{ url_label }}</a>
+{% endif %}
+      <span class="publication-cite" data-publication-cite>
+        <button class="publication-cite-toggle" type="button" data-cite-toggle aria-expanded="false">Cite</button>
+        <span class="publication-cite-menu" role="group" aria-label="Citation export formats" data-cite-menu hidden>
+          <button type="button" data-cite-format="ris">RIS</button>
+          <button type="button" data-cite-format="csl-json">CSL-JSON</button>
+          <button type="button" data-cite-format="biblatex">BibLaTeX</button>
+          <button type="button" data-cite-format="endnote-enw">EndNote ENW</button>
+          <button type="button" data-cite-format="endnote-xml">EndNote XML</button>
+          <button type="button" data-cite-format="mods">MODS XML</button>
+          <button type="button" data-cite-format="marcxml">MARCXML</button>
+          <button type="button" data-cite-format="dublin-core">Dublin Core XML</button>
+        </span>
+      </span>
+    </span>
+  </div>
+{% if item.presented_at %}
+  <p class="publication-presented">
+    Also presented at:
+{% for appearance in item.presented_at %}
+    {{ appearance.venue }}, {{ appearance.year }}{% if appearance.location %}, {{ appearance.location }}{% endif %}{% unless forloop.last %};{% endunless %}
+{% endfor %}
+  </p>
+{% endif %}
+</article>

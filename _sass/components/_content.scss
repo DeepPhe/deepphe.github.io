@@ -1,9 +1,13 @@
 .content {
+  > :last-child {
+    margin-bottom: 0;
+  }
+
   h2 a {
-    color: white;
+    color: $text;
   }
     a {
-      color: #d7d7d7;
+      color: $link;
       hover-decoration: underline;
       text-decoration: underline;
       hover-color: $lightlink-hover-color;
@@ -24,7 +28,7 @@
   p {
     font-family: $font-family-base;
     line-height: 1.56;
-    color: #c4c4c4;
+    color: $text-muted;
   }
   h1 {
     font-family: sans-serif;

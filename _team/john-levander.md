@@ -1,14 +1,17 @@
 ---
 title: "John Levander"
-date: 2018-11-19T10:47:58+10:00
-draft: false
 image: "images/team/john.png"
-jobtitle: "Developer"
-linkedinurl: ""
-weight: 5
+jobtitle: "Software Developer"
+summary: "Developer responsible for the DeepPhe Visualizer, the project website, and the cross-platform installer."
+institution: "University of Pittsburgh Department of Biomedical Informatics"
+institutionurl: "https://www.dbmi.pitt.edu/"
+profileurl: "https://www.dbmi.pitt.edu/directory/name/john-levander/"
+group: "contributors"
+listed: false
+weight: 6
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+John Levander is a DeepPhe contributor responsible for the DeepPhe Visualizer, project website, and cross-platform installer.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+His work also includes the DeepPhe Data API, database pipeline, distribution infrastructure, and supporting software that connects DeepPhe output to usable research tools.

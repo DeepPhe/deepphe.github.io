@@ -49,8 +49,8 @@ models:
       - type: object
         name: footer
         fields:
-          - type: string
-            name: copyright_text
+          - type: number
+            name: copyright_start_year
       - type: object
         name: seo
         fields:

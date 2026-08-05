@@ -1,13 +1,15 @@
 .main-menu-mobile {
   position: fixed;
-  background: $primary;
+  background: $surface;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  // Delay the visibility flip on close so the opacity fade-out stays visible;
+  // on open (.open below) it flips immediately so menu links can take focus.
+  transition: opacity 0.35s, visibility 0s linear 0.35s, height 0.35s;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -18,6 +20,7 @@
     visibility: visible;
     height: 100%;
     z-index: 20;
+    transition: opacity 0.35s, visibility 0s linear 0s, height 0.35s;
     li {
       animation: fadeInRight 0.5s ease forwards;
       animation-delay: 0.35s;
@@ -54,12 +57,17 @@
       a {
         display: block;
         position: relative;
-        color: #ffffff;
+        color: $text;
         text-decoration: none;
         overflow: hidden;
         &:hover {
           opacity: 0.8;
         }
+      }
+      // Temporary recruitment callout (see _data/menus.yml).
+      &.nav-cta a {
+        color: $amber;
+        font-weight: bold;
       }
     }
   }
@@ -76,4 +84,16 @@
 }
 .lock-scroll {
   overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-menu-mobile,
+  .main-menu-mobile.open {
+    transition: none;
+  }
+
+  .main-menu-mobile.open li {
+    animation: none;
+    opacity: 1;
+  }
 }

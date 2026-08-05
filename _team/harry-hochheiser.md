@@ -1,13 +1,17 @@
 ---
-title: "Harry Hochheiser"
-date: 2018-11-19T10:47:58+10:00
-draft: false
+title: "Harry Hochheiser, PhD"
 image: "images/team/harry.png"
-jobtitle: "Site PI"
-linkedinurl: "https://www.linkedin.com/in/harry-hochheiser-5b014b"
-promoted: true
+jobtitle: "Site Principal Investigator"
+summary: "Site principal investigator whose research focuses on human-centered biomedical informatics, information visualization, and data science."
+institution: "University of Pittsburgh Department of Biomedical Informatics"
+institutionurl: "https://www.dbmi.pitt.edu/"
+profileurl: "https://www.dbmi.pitt.edu/directory/name/harry-hochheiser/"
+group: "leadership"
+listed: true
 weight: 2
 layout: team
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
+Harry Hochheiser is a site principal investigator for DeepPhe and a professor in the Department of Biomedical Informatics at the University of Pittsburgh.
+
+His research combines biomedical informatics, human-computer interaction, information visualization, and data science. His work on DeepPhe includes information models, cancer registry workflows, and tools for exploring clinical data.

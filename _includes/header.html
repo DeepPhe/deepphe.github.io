@@ -1,12 +1,12 @@
-<div class='header'>
+<header class='header'>
   <div class="container">
     <div class="logo">
-      <a href="{{ site.logo.logo_url }}"><img height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
+      <a href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home"><img height="{{ site.logo.desktop_height }}" alt="" src="{{ site.logo.desktop | relative_url }}" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ site.logo.logo_url }}"><img alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+      <a href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home"><img alt="" src="{{ site.logo.mobile | relative_url }}" /></a>
     </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
+{% include main-menu.html %}
+{% include hamburger.html %}
   </div>
-</div>
+</header>

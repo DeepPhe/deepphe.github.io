@@ -3,7 +3,7 @@ a {
 }
 p {
   line-height: 26px;
-  color: #c4c4c4;
+  color: $text-muted;
   font-family: $font-family-base;
   margin-bottom: 20px;
 }
@@ -18,7 +18,7 @@ h1 {
   }
 }
 h2 {
-  color: #ffffff;
+  color: $text;
   font-size: 24px;
   font-family: $font-family-heading;
   line-height: 1.4;

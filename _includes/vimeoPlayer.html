@@ -1,3 +1,5 @@
-<div class="embed-container">
-    <iframe width="1034" height="581.63" src="https://www.youtube.com/embed/X-5XhunAg6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><script src="https://www.youtube.com/embed/X-5XhunAg6M"></script>
-
+{% assign video_id = include.youtube_id | default: include.id | default: "X-5XhunAg6M" %}
+{% assign video_title = include.title | default: "DeepPhe video" %}
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" title="{{ video_title | escape }}" loading="lazy" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>

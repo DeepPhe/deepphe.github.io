@@ -1,9 +1,13 @@
 .intro-image {
-  height: 300px;
-  width: auto;
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
- margin-top:50px;
+  margin-top: 50px;
+  border: 2px solid $border;
+  border-radius: 8px;
 }
 .intro-image-absolute {
   max-width: 400;
